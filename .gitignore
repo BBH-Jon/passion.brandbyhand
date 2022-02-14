@@ -9,10 +9,12 @@
 /dup-installer/
 /wp-content/index.php
 /wp-content/languages
+/wp-content/wflogs
 /wp-content/plugins/index.php
 /wp-content/themes/index.php
 /wp-content/themes/twentytwentytwo*/
 /wp-includes/
+
 
 
 # Files
