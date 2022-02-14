@@ -1,0 +1,24 @@
+# BEGIN Imagify: webp file type
+<IfModule mod_mime.c>
+	AddType image/webp .webp
+</IfModule>
+# END Imagify: webp file type
+
+#This Apache config file was created by Duplicator Installer on 2021-09-02 08:14:48.
+#The original can be found in archived file with the name .htaccess__[HASH]
+
+# BEGIN WordPress
+# Direktiverne (linjer) mellem 'BEGIN WordPress' og 'END WordPress' er
+# dynamisk genereret og bør kun ændres via WordPress-filtre.
+# Eventuelle ændringer i direktiverne mellem disse markører vil blive overskrevet.
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+
+# END WordPress
