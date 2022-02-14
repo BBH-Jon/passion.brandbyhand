@@ -1,4 +1,5 @@
 <?php
+echo "Hallo World!"
 /**
  * WordPress User Page
  *
