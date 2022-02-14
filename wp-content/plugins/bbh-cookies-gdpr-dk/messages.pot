@@ -1,0 +1,411 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-05-22 09:31+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: bbh-content.php:40
+msgid ""
+"<p>This website uses cookies to ensure our users get the best experience "
+"possible. Cookie information is stored in your browser to recognise you when "
+"you return to this website and helping our team to understand which "
+"information on the website you find interesting and useful.</p><p>By "
+"navigating the tabs on the left hand side you are able to adjust your cookie "
+"settings.</p><p>Read our full privacy policy here.</p>"
+msgstr ""
+
+#: bbh-content.php:49
+msgid ""
+"<p>This should be enabled at all times so that we can save your preferences "
+"for cookie settings and provide you with the best experience.</p>"
+msgstr ""
+
+#: bbh-content.php:58
+msgid ""
+"If you disable this cookie, we will not be able to save your preferences. "
+"Every time you visit this website you will need to enable or disable cookies "
+"again."
+msgstr ""
+
+#: bbh-content.php:67
+msgid ""
+"<p><strong>Google Analytics:</strong><br />\n"
+"We use Google Analytics to track traffic and events on this website. By "
+"enabling this feature, you agree that your data will be used for Google "
+"Analytics.</p>\n"
+"<p><strong>Sleeknote:</strong><br />\n"
+"Sleeknote is used to collect relevant data so we can contact you the way you "
+"want it. By activating this feature you agree that your data will be used in "
+"Sleeknote.</p>\n"
+"<p><strong>Facebook Pixels:</strong><br />\n"
+"We use Facebook Pixels to track and measure on our ads through Facebook. By "
+"activating this feature, you agree that your data will be used in Facebook "
+"Pixels.</p>\n"
+msgstr ""
+
+#: bbh-content.php:82
+msgid ""
+"<p>This website uses Google Analytics to collect anonymous information such "
+"as the number of visitors to the site, and the most popular pages.</"
+"p><p>Keeping this cookie enabled helps us to improve our website.</p>"
+msgstr ""
+
+#: bbh-content.php:91
+msgid ""
+"<p>More information about our <a href='#' target='_blank'>Cookie Policy</a></"
+"p>"
+msgstr ""
+
+#: bbh-functions.php:23
+msgid "Settings"
+msgstr ""
+
+#: controllers/bbh-controller.php:169
+#: views/bbh/admin/settings/general_settings.php:248
+msgid "Change cookie settings"
+msgstr ""
+
+#: controllers/bbh-controller.php:199 controllers/bbh-controller.php:258
+#: views/bbh/admin/settings/privacy_overview.php:38
+#: views/bbh/admin/settings/settings_page.php:46
+msgid "Privacy Overview"
+msgstr ""
+
+#: controllers/bbh-controller.php:206 controllers/bbh-controller.php:270
+#: views/bbh/admin/settings/settings_page.php:53
+#: views/bbh/admin/settings/strictly_necessary_cookies.php:42
+msgid "Strictly Necessary Cookies"
+msgstr ""
+
+#: controllers/bbh-controller.php:216 controllers/bbh-controller.php:329
+#: controllers/bbh-controller.php:353
+#: views/bbh/admin/settings/settings_page.php:60
+#: views/bbh/admin/settings/third_party_cookies.php:66
+msgid "3rd Party Cookies"
+msgstr ""
+
+#: controllers/bbh-controller.php:226 controllers/bbh-controller.php:305
+#: views/bbh/admin/settings/advanced_cookies.php:67
+#: views/bbh/admin/settings/settings_page.php:67
+msgid "Additional Cookies"
+msgstr ""
+
+#: controllers/bbh-controller.php:238
+#: views/bbh/admin/settings/cookie_policy.php:45
+#: views/bbh/admin/settings/settings_page.php:73
+msgid "Cookie Policy"
+msgstr ""
+
+#: controllers/bbh-controller.php:282 controllers/bbh-controller.php:316
+#: controllers/bbh-controller.php:341
+#: views/bbh/admin/settings/general_settings.php:152
+msgid "Enabled"
+msgstr ""
+
+#: controllers/bbh-controller.php:282 controllers/bbh-controller.php:316
+#: controllers/bbh-controller.php:341
+#: views/bbh/admin/settings/general_settings.php:153
+msgid "Disabled"
+msgstr ""
+
+#: controllers/bbh-controller.php:371
+msgid "Enable All"
+msgstr ""
+
+#: controllers/bbh-controller.php:372
+msgid "Save Settings"
+msgstr ""
+
+#: controllers/bbh-controller.php:411
+msgid "We are using cookies to give you the best experience on our website."
+msgstr ""
+
+#: controllers/bbh-controller.php:412
+msgid ""
+"You can find out more about which cookies we are using or switch them off in "
+"[setting]settings[/setting]."
+msgstr ""
+
+#: controllers/bbh-controller.php:421
+#: views/bbh/admin/settings/general_settings.php:199
+msgid "Accept"
+msgstr ""
+
+#: views/bbh/admin/settings/advanced_cookies.php:77
+#: views/bbh/admin/settings/cookie_policy.php:55
+#: views/bbh/admin/settings/third_party_cookies.php:76
+msgid "Turn"
+msgstr ""
+
+#: views/bbh/admin/settings/advanced_cookies.php:80
+#: views/bbh/admin/settings/cookie_policy.php:58
+#: views/bbh/admin/settings/third_party_cookies.php:79
+msgid "On"
+msgstr ""
+
+#: views/bbh/admin/settings/advanced_cookies.php:81
+#: views/bbh/admin/settings/cookie_policy.php:59
+#: views/bbh/admin/settings/third_party_cookies.php:80
+msgid "Off"
+msgstr ""
+
+#: views/bbh/admin/settings/advanced_cookies.php:87
+#: views/bbh/admin/settings/cookie_policy.php:65
+#: views/bbh/admin/settings/privacy_overview.php:49
+#: views/bbh/admin/settings/strictly_necessary_cookies.php:52
+#: views/bbh/admin/settings/third_party_cookies.php:85
+msgid "Tab Title"
+msgstr ""
+
+#: views/bbh/admin/settings/advanced_cookies.php:96
+#: views/bbh/admin/settings/cookie_policy.php:74
+#: views/bbh/admin/settings/privacy_overview.php:58
+#: views/bbh/admin/settings/strictly_necessary_cookies.php:61
+#: views/bbh/admin/settings/third_party_cookies.php:94
+msgid "Tab Content"
+msgstr ""
+
+#: views/bbh/admin/settings/advanced_cookies.php:119
+#: views/bbh/admin/settings/third_party_cookies.php:117
+msgid "Please fill out at least one of these fields:"
+msgstr ""
+
+#: views/bbh/admin/settings/advanced_cookies.php:125
+#: views/bbh/admin/settings/third_party_cookies.php:123
+msgid ""
+"The below script will be added to the page HEAD section if user enables this "
+"cookie."
+msgstr ""
+
+#: views/bbh/admin/settings/advanced_cookies.php:133
+#: views/bbh/admin/settings/advanced_cookies.php:148
+#: views/bbh/admin/settings/third_party_cookies.php:131
+#: views/bbh/admin/settings/third_party_cookies.php:146
+msgid ""
+"For example, you can use it for Google Tag Manager script or any other 3rd "
+"party code snippets."
+msgstr ""
+
+#: views/bbh/admin/settings/advanced_cookies.php:140
+#: views/bbh/admin/settings/third_party_cookies.php:138
+msgid ""
+"The below script will be added right after the BODY section if user enables "
+"this cookie."
+msgstr ""
+
+#: views/bbh/admin/settings/advanced_cookies.php:154
+#: views/bbh/admin/settings/third_party_cookies.php:153
+msgid ""
+"The below script will be added to the page FOOTER section if user enables "
+"this cookie."
+msgstr ""
+
+#: views/bbh/admin/settings/advanced_cookies.php:162
+#: views/bbh/admin/settings/third_party_cookies.php:161
+msgid ""
+"For example, you can use it for Google Analytics script or any other 3rd "
+"party code snippets."
+msgstr ""
+
+#: views/bbh/admin/settings/advanced_cookies.php:170
+#: views/bbh/admin/settings/cookie_policy.php:101
+#: views/bbh/admin/settings/general_settings.php:295
+#: views/bbh/admin/settings/privacy_overview.php:83
+#: views/bbh/admin/settings/strictly_necessary_cookies.php:106
+#: views/bbh/admin/settings/third_party_cookies.php:169
+msgid "Save changes"
+msgstr ""
+
+#: views/bbh/admin/settings/general_settings.php:45
+msgid "Modal General Settings"
+msgstr ""
+
+#: views/bbh/admin/settings/general_settings.php:53
+msgid "Brand Primary Colour"
+msgstr ""
+
+#: views/bbh/admin/settings/general_settings.php:62
+msgid "Brand Secondary Colour"
+msgstr ""
+
+#: views/bbh/admin/settings/general_settings.php:71
+msgid "Modal Logo"
+msgstr ""
+
+#: views/bbh/admin/settings/general_settings.php:72
+msgid "Recommended size:"
+msgstr ""
+
+#: views/bbh/admin/settings/general_settings.php:72
+msgid "pixels"
+msgstr ""
+
+#: views/bbh/admin/settings/general_settings.php:119
+msgid "Logo Position"
+msgstr ""
+
+#: views/bbh/admin/settings/general_settings.php:122
+msgid "Left"
+msgstr ""
+
+#: views/bbh/admin/settings/general_settings.php:123
+msgid "Center"
+msgstr ""
+
+#: views/bbh/admin/settings/general_settings.php:124
+msgid "Right"
+msgstr ""
+
+#: views/bbh/admin/settings/general_settings.php:131
+msgid "Save Settings - Button Label"
+msgstr ""
+
+#: views/bbh/admin/settings/general_settings.php:134
+msgid "Save Changes"
+msgstr ""
+
+#: views/bbh/admin/settings/general_settings.php:140
+msgid "Enable All - Button Label"
+msgstr ""
+
+#: views/bbh/admin/settings/general_settings.php:143
+msgid "Enable all"
+msgstr ""
+
+#: views/bbh/admin/settings/general_settings.php:149
+msgid "Checkbox Labels"
+msgstr ""
+
+#: views/bbh/admin/settings/general_settings.php:164
+msgid "Cookie Info Bar Settings"
+msgstr ""
+
+#: views/bbh/admin/settings/general_settings.php:171
+msgid "Infobar Content"
+msgstr ""
+
+#: views/bbh/admin/settings/general_settings.php:179
+msgid ""
+"<p>We are using cookies to ensure our users get the best experience on this "
+"website.</p><p>You can read more about which cookies we are using or disable "
+"them off in [setting]settings[/setting].</p>"
+msgstr ""
+
+#: views/bbh/admin/settings/general_settings.php:191
+msgid ""
+"You can use the following shortcut to link the settings modal:"
+"<br><span><strong>[setting]</strong>settings<strong>[/setting]</strong></"
+"span>"
+msgstr ""
+
+#: views/bbh/admin/settings/general_settings.php:196
+msgid "Accept - Button Label"
+msgstr ""
+
+#: views/bbh/admin/settings/general_settings.php:205
+msgid "Colour scheme"
+msgstr ""
+
+#: views/bbh/admin/settings/general_settings.php:209
+#: views/bbh/admin/settings/general_settings.php:235
+#: views/bbh/admin/settings/general_settings.php:238
+msgid "Enable"
+msgstr ""
+
+#: views/bbh/admin/settings/general_settings.php:211
+msgid "Dark"
+msgstr ""
+
+#: views/bbh/admin/settings/general_settings.php:214
+msgid "Light"
+msgstr ""
+
+#: views/bbh/admin/settings/general_settings.php:224
+msgid "Change Settings - Floating Button"
+msgstr ""
+
+#: views/bbh/admin/settings/general_settings.php:231
+msgid "Enable Floating Button"
+msgstr ""
+
+#: views/bbh/admin/settings/general_settings.php:245
+msgid "Button - Hover Label"
+msgstr ""
+
+#: views/bbh/admin/settings/general_settings.php:254
+msgid "Button - Custom Position (CSS)"
+msgstr ""
+
+#: views/bbh/admin/settings/general_settings.php:258
+msgid ""
+"You can align the position eg.: <strong>top: 20px; right: 20px;</strong>"
+msgstr ""
+
+#: views/bbh/admin/settings/general_settings.php:264
+msgid "Button - Background Colour"
+msgstr ""
+
+#: views/bbh/admin/settings/general_settings.php:273
+msgid "Button - Hover Background Colour"
+msgstr ""
+
+#: views/bbh/admin/settings/general_settings.php:282
+msgid "Button - Font Colour"
+msgstr ""
+
+#: views/bbh/admin/settings/settings_page.php:2
+msgid "GDPR Cookie Compliance Plugin Settings"
+msgstr ""
+
+#: views/bbh/admin/settings/settings_page.php:4
+msgid "Settings saved."
+msgstr ""
+
+#: views/bbh/admin/settings/settings_page.php:6
+#: views/bbh/admin/settings/settings_page.php:15
+msgid "Dismiss this notice."
+msgstr ""
+
+#: views/bbh/admin/settings/settings_page.php:12
+msgid "You need to insert the relevant script for the settings to be saved!"
+msgstr ""
+
+#: views/bbh/admin/settings/settings_page.php:19
+msgid ""
+"General Data Protection Regulation (GDPR) is a <a href=\"http://www.eugdpr."
+"org/\" target=\"_blank\">European regulation</a> to strengthen and unify the "
+"data protection of EU citizens."
+msgstr ""
+
+#: views/bbh/admin/settings/settings_page.php:42
+msgid "General Settings"
+msgstr ""
+
+#: views/bbh/admin/settings/settings_page.php:87
+msgid ""
+"<p>This plugin was originally developed by <a href=\"https://www.mooveagency."
+"com/\" title=\"WordPress Agency\" target=\"_blank\">Moove</a>, but has been "
+"rewritten by <a href=\"https://www.brandbyhand.dk/\" title=\"WordPress Agency"
+"\" target=\"_blank\"><span></span></a> - wordpress agency</p>"
+msgstr ""
+
+#: views/bbh/admin/settings/strictly_necessary_cookies.php:84
+msgid "Tab Warning Message"
+msgstr ""
+
+#: views/bbh/admin/settings/strictly_necessary_cookies.php:98
+msgid "Will be displayed below the Checkbox in the front-end!"
+msgstr ""

@@ -1,0 +1,82 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?r3pzv6');
+  src:  url('fonts/icomoon.eot?r3pzv6#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.woff2?r3pzv6') format('woff2'),
+    url('fonts/icomoon.ttf?r3pzv6') format('truetype'),
+    url('fonts/icomoon.woff?r3pzv6') format('woff'),
+    url('fonts/icomoon.svg?r3pzv6#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-Facebook:before {
+  content: "\e900";
+}
+.icon-fragt:before {
+  content: "\e901";
+}
+.icon-instagram:before {
+  content: "\e902";
+}
+.icon-Kontakt:before {
+  content: "\e903";
+}
+.icon-kurv:before {
+  content: "\e904";
+}
+.icon-LinkedIn:before {
+  content: "\e905";
+}
+.icon-Mail:before {
+  content: "\e906";
+}
+.icon-mobil:before {
+  content: "\e907";
+}
+.icon-pil1:before {
+  content: "\e908";
+}
+.icon-pil2:before {
+  content: "\e909";
+}
+.icon-pil3:before {
+  content: "\e90a";
+}
+.icon-pil4:before {
+  content: "\e90b";
+}
+.icon-pil5:before {
+  content: "\e90c";
+}
+.icon-pil6:before {
+  content: "\e90d";
+}
+.icon-seach:before {
+  content: "\e90e";
+}
+.icon-snabela:before {
+  content: "\e90f";
+}
+.icon-vogn:before {
+  content: "\e910";
+}
+.icon-web:before {
+  content: "\e911";
+}

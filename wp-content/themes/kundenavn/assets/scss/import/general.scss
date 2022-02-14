@@ -1,0 +1,293 @@
+/*========================================
+=            GENERAL               =
+========================================*/
+.grid-container {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+#page.grid-container {
+  padding: 0 !important;
+}
+/*========================================
+=            BBH BTN                =
+========================================*/
+.btn {
+  display: inline-block;
+  min-width: 130px;
+  padding: 12px 35px;
+  border-radius: 38px;
+  text-align: center;
+  moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+  &.primary-button {
+    color: $colorWhite;
+    background-color: black;
+    &:hover {
+      background-color: white;
+      color: black;
+    }
+  }
+  &.secondary-button {
+    background: #ffffff 0% 0% no-repeat padding-box;
+    color: black;
+    &:hover {
+      background: black;
+      transition: all 0.3s ease-in-out;
+      color: $colorWhite;
+    }
+  }
+}
+
+/*========================================
+=                404 page                =
+========================================*/
+/*-------------- 404 -------------*/
+.error404 #primary {
+  padding-top: 150px;
+  padding-bottom: 150px;
+  text-align: center;
+}
+
+/*-------------- 404 btn -------------*/
+.btn-404 {
+  display: inline-block;
+  padding: 14px 25px;
+  min-width: 150px;
+  box-sizing: border-box;
+  background-color: black !important;
+  color: #fefefe !important;
+  text-transform: uppercase;
+  font-weight: 600;
+  transition: 0.3s ease-out;
+  font-size: 14px;
+  text-align: center;
+  margin-top: 50px;
+}
+//Setting page-template-default to 100% width, since we're using Flexible Content in this template.
+body.page-template-default.page #page {
+  max-width: 100%;
+  width: 100%;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+/*-------------- brandbyhand page -------------*/
+.bbh {
+  a {
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    img {
+      height: 100px;
+      object-fit: cover;
+      width: auto;
+    }
+  }
+}
+
+//Gravityform honeypot
+.gform_validation_container {
+  display: none !important;
+  position: absolute !important;
+  left: -9000px;
+}
+
+.separate-containers .inside-article,
+.separate-containers .comments-area,
+.separate-containers .page-header,
+.separate-containers .paging-navigation,
+.one-container .site-content,
+.inside-page-header,
+.wp-block-group__inner-container {
+  padding: 0;
+}
+
+/*========================================
+=           Variable Content             =
+========================================*/
+.variable-mg {
+  margin-top: 0 !important;
+  .grid-container {
+    h2 {
+      margin-bottom: 10px !important;
+    }
+  }
+}
+
+.variable-content {
+  position: relative;
+  z-index: 2;
+  background-size: cover;
+  background-position: center;
+  margin-left: auto;
+  margin-right: auto;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 50px;
+  &.lowpadding {
+    padding: 50px 0;
+  }
+  &.highpadding {
+    padding: 100px 0;
+  }
+  &.rounded {
+    border-radius: 0px 0px 200px 0px;
+  }
+
+  h1,
+  h2 {
+    margin-bottom: 30px;
+  }
+  .full {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  .top-text {
+    padding: 0 0 20px 0;
+    width: 60%;
+    display: inline-block;
+  }
+  .top-text.padding {
+    padding: 40px 0 20px 0;
+  }
+  .inner-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    .single.bg {
+      height: 100%;
+      padding: 40px 30px;
+      box-sizing: border-box;
+      p:last-child {
+        a {
+          margin-bottom: -1.5em;
+          display: table;
+          &:after {
+            bottom: 0px !important;
+          }
+        }
+      }
+    }
+    .single {
+      padding: 40px 0;
+      box-sizing: border-box;
+      position: relative;
+      overflow: hidden;
+    }
+  }
+}
+
+/*========================================
+=  Varibelt Content - Responsive  =
+========================================*/
+
+/*-Desktop (Macbook) 1200px-*/
+@media screen and (max-width: 1200px) {
+  .variable-content .inner-wrap.cols-4 .single {
+    width: calc(100% / 2);
+    padding-bottom: 30px;
+  }
+  .variable-content .top-text {
+    padding-bottom: 30px;
+  }
+} //1200 end
+
+/*-Desktop (Macbook) 1050px-*/
+@media screen and (max-width: 1050px) {
+  .variable-content .inner-wrap.cols-3 .single {
+    width: 100%;
+    padding-bottom: 30px;
+  }
+
+  .variable-content .inner-wrap.cols-2 .single {
+    width: 100%;
+    padding-bottom: 30px;
+  }
+} //1050 end
+
+/*-Tablet (Orientation: landscape) 1024px-*/
+@media screen and (max-width: 1024px) {
+  .variable-content .inner-wrap {
+    .videoheight {
+      width: 100%;
+      min-height: 300px;
+      margin-bottom: 20px;
+    }
+  }
+} //1024 end
+
+/*-Tablet (Orientation: landscape) 992-*/
+@media screen and (max-width: 992px) {
+  .variable-content {
+    &.bgpadding {
+      padding: 50px 0;
+    }
+    .inner-wrap div {
+      margin-top: 20px;
+      &:first-child {
+        margin-top: 0;
+      }
+    }
+  }
+} //992 end
+
+/*-Tablet (Orientation: portrait) 768px-*/
+@media screen and (max-width: 768px) {
+  .variable-content .inner-wrap .single .video {
+    top: 0;
+  }
+  .variable-content {
+    .inner-wrap.cols-8 {
+      div:first-child {
+        padding-right: 15px;
+      }
+    }
+  }
+} //768 end
+
+/*-Smartphone (Samsung S6: landscape) 640px-*/
+@media screen and (max-width: 640px) {
+  /*========================================
+	=            GENERAL               =
+	========================================*/
+  .grid-container {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .variable-content {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    .grid-container {
+      padding: 30px;
+    }
+    .inner-wrap.cols-4 .single {
+      width: 100%;
+    }
+  }
+  .variable-content .top-text {
+    width: 100%;
+  }
+} //640 end
+
+/*-Smartphone (iPhone 4: landscape) 480px-*/
+@media screen and (max-width: 480px) {
+  /*========================================
+	=            GENERAL               =
+	========================================*/
+  .grid-container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .variable-content .grid-container {
+    padding: 0;
+    .row {
+      margin: 0;
+    }
+    .inner-wrap .single {
+      padding: 20px 0;
+    }
+  }
+} //480 end

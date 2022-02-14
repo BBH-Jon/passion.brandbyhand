@@ -1,0 +1,746 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Tandlægerne på Østerbro\n"
+"POT-Creation-Date: 2020-02-18 08:45+0100\n"
+"PO-Revision-Date: 2020-02-18 08:45+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: da_DK\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: style.css\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: archive-employee.php:40
+msgid "Our"
+msgstr "Vores"
+
+#: archive-employee.php:41 functions.php:526 functions.php:552
+#: functions.php:553
+msgid "Employees"
+msgstr "Medarbejdere"
+
+#: functions.php:20
+msgid "Primary Navigation"
+msgstr "Primær Navigation"
+
+#: functions.php:21
+msgid "Invisalign Navigation"
+msgstr "Invisalign Navigation"
+
+#: functions.php:22
+msgid "Footer Navigation"
+msgstr "Footer Navigation"
+
+#: functions.php:186
+msgid "Theme General Settings"
+msgstr "Generelle temaindstillinger"
+
+#: functions.php:187
+msgid "Theme Settings"
+msgstr "Temaindstillinger"
+
+#: functions.php:197 functions.php:198
+msgid "Business Hours"
+msgstr "Åbningstider"
+
+#: functions.php:447
+msgctxt "Post Type General Name"
+msgid "Treatments"
+msgstr "Behandlinger"
+
+#: functions.php:448
+msgctxt "Post Type Singular Name"
+msgid "Treatment"
+msgstr "Behandling"
+
+#: functions.php:449 functions.php:475
+msgid "Treatments"
+msgstr "Behandlinger"
+
+#: functions.php:450
+msgid "Treatment"
+msgstr "Behandling"
+
+#: functions.php:451
+msgid "Treatment Archives"
+msgstr "Behandlingsarkiver"
+
+#: functions.php:452
+msgid "Parent Treatment:"
+msgstr "Forældrebehandling:"
+
+#: functions.php:453
+msgid "All Treatments"
+msgstr "Alle behandlinger"
+
+#: functions.php:454
+msgid "Add New Treatment"
+msgstr "Tilføj ny behandling"
+
+#: functions.php:455 functions.php:532
+msgid "Add New"
+msgstr "Tilføj ny"
+
+#: functions.php:456
+msgid "New Treatment"
+msgstr "Tilføj ny behandling"
+
+#: functions.php:457
+msgid "Edit Treatment"
+msgstr "Rediger behandling"
+
+#: functions.php:458
+msgid "Update Treatment"
+msgstr "Opdater behandling"
+
+#: functions.php:459
+msgid "View Treatment"
+msgstr "Vis behandling"
+
+#: functions.php:460
+msgid "Search Treatment"
+msgstr "Søg behandling"
+
+#: functions.php:461 functions.php:538
+msgid "Not found"
+msgstr "Ikke fundet"
+
+#: functions.php:462 functions.php:539
+msgid "Not found in Trash"
+msgstr "Ikke fundet i papirkurven"
+
+#: functions.php:463 functions.php:540
+msgid "Featured Image"
+msgstr "Udvalgt billede"
+
+#: functions.php:464 functions.php:541
+msgid "Set featured image"
+msgstr "Sæt Fremhævet Billede"
+
+#: functions.php:465 functions.php:542
+msgid "Remove featured image"
+msgstr "Fjern Fremhævet Billede"
+
+#: functions.php:466 functions.php:543
+msgid "Use as featured image"
+msgstr "Brug som Fremhævet Billede"
+
+#: functions.php:467
+msgid "Insert into treatment"
+msgstr "Indsæt i behandling"
+
+#: functions.php:468
+msgid "Uploaded to this treatment"
+msgstr "Uploadet til denne behandling"
+
+#: functions.php:469
+msgid "Treatments list"
+msgstr "Behandlingsliste"
+
+#: functions.php:470
+msgid "Treatments list navigation"
+msgstr "Behandlings liste navigation"
+
+#: functions.php:471
+msgid "Filter treatments list"
+msgstr "Filter behandlinger"
+
+#: functions.php:476
+msgid "Treatments Description"
+msgstr "Behandlings Beskrivelse"
+
+#: functions.php:484
+msgid "treatments"
+msgstr "behandlinger"
+
+#: functions.php:524
+msgctxt "Post Type General Name"
+msgid "Employees"
+msgstr "Medarbejdere"
+
+#: functions.php:525
+msgctxt "Post Type Singular Name"
+msgid "Employee"
+msgstr "Medarbejder"
+
+#: functions.php:527
+msgid "Employee"
+msgstr "Medarbejder"
+
+#: functions.php:528
+msgid "Employee Archives"
+msgstr "Medarbejderarkiver"
+
+#: functions.php:529
+msgid "Parent Employee:"
+msgstr "Medarbejder forælder:"
+
+#: functions.php:530
+msgid "All Employees"
+msgstr "Alle medarbejdere"
+
+#: functions.php:531
+msgid "Add New Employee"
+msgstr "Tilføj ny medarbejder"
+
+#: functions.php:533
+msgid "New Employee"
+msgstr "Ny medarbejder"
+
+#: functions.php:534
+msgid "Edit Employee"
+msgstr "Rediger medarbejder"
+
+#: functions.php:535
+msgid "Update Employee"
+msgstr "Opdater medarbejder"
+
+#: functions.php:536
+msgid "View Employee"
+msgstr "Se medarbejder"
+
+#: functions.php:537
+msgid "Search Employee"
+msgstr "Søg medarbejder"
+
+#: functions.php:544
+msgid "Insert into employee"
+msgstr "Indsæt i medarbejder"
+
+#: functions.php:545
+msgid "Uploaded to this employee"
+msgstr "Uploadet til denne medarbejder"
+
+#: functions.php:546
+msgid "Employees list"
+msgstr "Medarbejderliste"
+
+#: functions.php:547
+msgid "Employees list navigation"
+msgstr "Medarbejder listenavigation"
+
+#: functions.php:548
+msgid "Filter employees list"
+msgstr "Filtrer medarbejderliste"
+
+#: functions.php:561
+msgid "employees"
+msgstr "medarbejdere"
+
+#: functions.php:713
+msgid ""
+"Hvis gavekortet er købt som en gave til en anden person end betaleren, bedes "
+"det venligst noteres herover, samt fulde navn og adresse på personen"
+msgstr ""
+"Hvis gavekortet er købt som en gave til en anden person end betaleren, bedes "
+"det venligst noteres herover, samt fulde navn og adresse på personen"
+
+#: functions.php:1378 functions.php:1386
+msgid "Closed"
+msgstr "Lukket"
+
+#: functions.php:1431
+msgid "Click to get a call when we are open again"
+msgstr "Bliv ringet op når vi igen er ved telefonerne"
+
+#: functions.php:1434 template-frontpage.php:62 template-frontpage.php:94
+msgid "Contact us on"
+msgstr "Kontakt os på"
+
+#: functions.php:1762
+#, php-format
+msgid "We are open today from <b>%1$s - %2$s</b>"
+msgstr "Vi har åbent i dag fra <b>%1$s - %2$s</b>"
+
+#: functions.php:1766
+#, php-format
+msgid "We are closed. We open later today at %1$s"
+msgstr "Vi er lukket. Vi åbner senere i dag kl. %1$s"
+
+#: functions.php:1772
+#, php-format
+msgid "We are closed. We open again <b>%1$s at %2$s</b>"
+msgstr "Vi er lukket. Vi åbner igen <b>%1$s kl. %2$s</b>"
+
+#: header.php:36 header.php:37
+msgid "Skip to main content"
+msgstr "Spring til indholdet"
+
+#: header.php:43 partials/modals/modal-ajax-employee.php:6
+#: partials/modals/modal-ajax.php:6 partials/modals/modal-ajax.php:16
+#: partials/snippets/snippet-floating-list.php:33 template-pricing.php:208
+#: template-pricing.php:262 template-pricing.php:271
+msgid "Close"
+msgstr "Luk"
+
+#: partials/modals/modal-sidebar.php:15
+msgid "Call us at +45 "
+msgstr "Ring på +45 "
+
+#: partials/modals/modal-sidebar.php:18
+msgid "Book an appointment"
+msgstr "Bestil en tid hos os"
+
+#: partials/modals/modal-sidebar.php:19
+msgid "We are also open on Saturdays"
+msgstr "Vi har også åbent om lørdagen"
+
+#: partials/modals/modal-sidebar.php:20
+msgid "Go to online booking"
+msgstr "Gå til tidsbestilling"
+
+#: partials/modals/modal-sidebar.php:22
+msgid "Send us a message"
+msgstr "Skriv til os"
+
+#: partials/modals/modal-sidebar.php:23
+msgid "We will return your message within 24 hours"
+msgstr "Vi vender tilbage indenfor 24 timer"
+
+#: partials/modals/modal-sidebar.php:24
+msgid "Send an e-mail"
+msgstr "Skriv en e-mail"
+
+#: partials/modules/module-action-element.php:26
+#: partials/modules/module-action-element.php:27 template-frontpage.php:89
+msgid "See all opening hours"
+msgstr "Se alle åbningstider"
+
+#: partials/modules/module-action-element.php:33
+msgid "Contact us on "
+msgstr "Kontakt os på "
+
+#: partials/modules/module-action-element.php:33 partials/section-footer.php:44
+#: partials/section-footer.php:45
+#: partials/snippets/snippet-floating-list.php:38
+msgid "+45"
+msgstr "+45"
+
+#: partials/modules/module-action-element.php:33
+#: partials/modules/module-map-hours.php:45
+#: partials/modules/module-opening-hours.php:30
+#: partials/modules/module-text-hours.php:36 partials/section-footer.php:44
+#: partials/snippets/snippet-floating-list.php:29
+#: partials/snippets/snippet-floating-list.php:36
+msgid "Call us"
+msgstr "Ring til os"
+
+#: partials/modules/module-action-element.php:34
+#: partials/modules/module-action-element.php:35
+#: partials/modules/module-map-hours.php:57
+#: partials/modules/module-map-hours.php:59
+#: partials/modules/module-text-hours.php:41 partials/section-header.php:22
+#: partials/section-header.php:25 partials/section-header.php:66
+#: partials/snippets/snippet-floating-list.php:12
+#: partials/snippets/snippet-floating-list.php:15
+#: partials/snippets/snippet-floating-list.php:44
+#: partials/snippets/snippet-floating-list.php:52
+#: partials/snippets/snippet-floating-list.php:55 single-treatment.php:105
+#: single-treatment.php:107 template-frontpage.php:57 template-frontpage.php:95
+msgid "Book online"
+msgstr "Bestil tid"
+
+#: partials/modules/module-employee-list.php:42
+#: partials/modules/module-employee-list.php:46
+msgid "See the rest of our skilled employees"
+msgstr "Se resten af vores medarbejdere"
+
+#: partials/modules/module-facebook-page-plugin.php:69
+msgid "Tandlægerne På Østerbro"
+msgstr "Tandlægerne på Østebro"
+
+#: partials/modules/module-map-hours.php:39
+msgid "Address"
+msgstr "Adresse"
+
+#: partials/modules/module-map-hours.php:45
+#: partials/modules/module-opening-hours.php:30
+msgid "Phone: "
+msgstr "Tlf: "
+
+#: partials/modules/module-map-hours.php:46
+#: partials/modules/module-opening-hours.php:31
+msgid "E-mail: "
+msgstr "E-mail: "
+
+#: partials/modules/module-map-hours.php:46
+#: partials/modules/module-opening-hours.php:31
+msgid "Send us an e-mail"
+msgstr "Skriv os en e-mail"
+
+#: partials/modules/module-map-hours.php:48
+#: partials/modules/module-opening-hours.php:33
+msgid "Get directions"
+msgstr "Få rutevejledning"
+
+#: partials/modules/module-map-hours.php:50
+#: partials/modules/module-opening-hours.php:17
+#: partials/modules/module-text-hours.php:30 partials/section-footer.php:82
+msgid "Opening Hours"
+msgstr "Åbningstider"
+
+#: partials/modules/module-opening-hours.php:22
+msgid "You can find us here:"
+msgstr "Du finder os her:"
+
+#: partials/modules/module-opening-hours.php:25
+msgid "Address:"
+msgstr "Adresse:"
+
+#: partials/modules/module-trustpilot.php:45
+msgid "Read what our patients think about us"
+msgstr "Læs hvad vores patienter synes om os"
+
+#: partials/section-footer.php:49
+msgid "Send ud an e-mail"
+msgstr "Skriv en e-mail"
+
+#: partials/section-footer.php:54 partials/section-footer.php:55
+msgid "Find us on Facebook"
+msgstr "Find os på Facebook"
+
+#: partials/section-footer.php:59 partials/section-footer.php:60
+msgid "Find us on Instagram"
+msgstr "Find os på Instagram"
+
+#: partials/section-footer.php:64 template-frontpage.php:67
+msgid "Find your way"
+msgstr "Find vej"
+
+#: partials/section-footer.php:71
+msgid "Show on map"
+msgstr "Vis på kort"
+
+#: partials/section-footer.php:91
+msgid "About us and our clinic"
+msgstr "Om os og vores klinik"
+
+#: partials/snippets/snippet-employee.php:63 search.php:33
+msgid "Read more"
+msgstr "Læs mere"
+
+#: partials/snippets/snippet-floating-list.php:37
+msgid "Do you have a question or do you want to book an appointment?"
+msgstr "Har du spørgsmål eller ønsker du at bestille tid?"
+
+#: partials/snippets/snippet-floating-list.php:46
+msgid "Get a call"
+msgstr "Bliv ringet op"
+
+#: partials/snippets/snippet-floating-list.php:64
+msgid "Menu"
+msgstr "Menu"
+
+#: search.php:25
+msgid "Search Results"
+msgstr "Søgeresultater"
+
+#: search.php:25
+msgid "Your seach gave "
+msgstr "Din søgning gav "
+
+#: search.php:25
+msgid " results"
+msgstr " resultater"
+
+#: search.php:39
+msgid "No posts found ..."
+msgstr "Ingen indlæg fundet ..."
+
+#: searchform.php:17
+msgctxt "label"
+msgid "Search for:"
+msgstr "Søg efter:"
+
+#: searchform.php:18
+msgctxt "placeholder"
+msgid "Search..."
+msgstr "Søg…"
+
+#: searchform.php:19
+msgid "Search"
+msgstr "Søg"
+
+#: single-treatment.php:71 template-pricing.php:157 template-pricing.php:166
+msgid "DKK"
+msgstr "DKK"
+
+#: single-treatment.php:83
+msgid "Trustpilot"
+msgstr "Trustpilot"
+
+#: single-treatment.php:98
+msgid "See complete price list"
+msgstr "Se komplet prisliste"
+
+#: template-booking-reciept.php:14
+msgctxt "Page Template Name"
+msgid "Template: Booking Reciept"
+msgstr "Template: Bookingkvittering"
+
+#: template-booking-reciept.php:50
+msgid "Thank you for your appointment"
+msgstr "Tak for din bestilling"
+
+#: template-booking-reciept.php:51
+msgid ""
+"We will contact you as soon as possible to determine which time is best for "
+"you."
+msgstr ""
+"Vi kontakter dig hurtigst muligt, for at afklare hvilken ledig tid som "
+"passer dig bedst."
+
+#: template-booking.php:14
+msgctxt "Page Template Name"
+msgid "Template: Booking"
+msgstr "Skabelon: Booking"
+
+#: template-frontpage.php:14
+msgctxt "Page Template Name"
+msgid "Template: Frontpage"
+msgstr "Skabelon: Forside"
+
+#: template-pricing.php:14
+msgctxt "Page Template Name"
+msgid "Template: Price Table"
+msgstr "Skabelon: Pristabel"
+
+#: template-pricing.php:46
+msgid "Adjust prices after subsidy and discounts"
+msgstr "Tilpas priser efter tilskud og rabat"
+
+#: template-pricing.php:48
+msgid "Read more about subsidy and discount payout"
+msgstr "Læs mere om udbetaling af tilskud og rabat"
+
+#: template-pricing.php:56
+msgid "The ’Danmark’ health insurance?"
+msgstr "Sygeforsikringen danmark?"
+
+#: template-pricing.php:59 template-pricing.php:85
+msgid "No"
+msgstr "Nej"
+
+#: template-pricing.php:62 template-pricing.php:88
+msgid "Yes"
+msgstr "Ja"
+
+#: template-pricing.php:67
+msgid "Group?"
+msgstr "Gruppe?"
+
+#: template-pricing.php:82
+msgid "Student?"
+msgstr "Studerende?"
+
+#: template-pricing.php:101
+msgid ""
+"All prices have been updated from <b>grants</b> and student <b>discounts</b>"
+msgstr ""
+"Alle priser er blevet opdateret ud fra <b>tilskud</b> og <b>studierabat</b>"
+
+#: template-pricing.php:116
+msgid ""
+"The full amount is paid in the clinic.<br>The subsidy is send return from "
+"the health insurance afterwards."
+msgstr ""
+"Det fulde beløb betales på klinikken.<br>Tilskuddet sendes retur fra "
+"Sygeforsikringen danmark og kan variere fra vores estimat her på siden, "
+"afhængigt af bl.a din accinitet."
+
+#: template-pricing.php:125
+msgid "Price"
+msgstr "Pris"
+
+#: template-pricing.php:126
+msgid "Price after subsidy"
+msgstr "Pris efter tilskud"
+
+#: template-pricing.php:200
+msgid "Read about the treatment"
+msgstr "Læs mere om behandlingen"
+
+#: template-pricing.php:263
+msgid "Back to overview"
+msgstr "Tilbage til oversigten"
+
+#: template-treatments.php:14 template-woocommerce.php:14
+msgctxt "Page Template Name"
+msgid "Template: Woocommerce"
+msgstr "Skabelon: WooCommerce"
+
+#: template-treatments.php:73
+msgctxt "from price"
+msgid "From"
+msgstr "Fra"
+
+#: template-treatments.php:73
+msgctxt "currency"
+msgid "DKK"
+msgstr "DKK"
+
+#. Theme Name of the plugin/theme
+msgid "Tandlægerne på Østerbro (Parent)"
+msgstr "Tandlægerne på Østebro (Forældre)"
+
+#. Theme URI of the plugin/theme
+msgid "https://tpobro.dk/"
+msgstr "https://tpobro.dk/"
+
+#. Description of the plugin/theme
+msgid ""
+"A custom WordPress theme designed by <a href=\"http://beneath.dk/\">Beneath</"
+"a> & developed by <a href=\"https://mikkeltschentscher.dk\">Mikkel "
+"Tschentscher</a> for Tandlægerne Østebro. If you are in need of assistance, "
+"please contact Mikkel on <a href=\"tel:004522513179\">+45 22 5131 79</a> or "
+"<a href=\"mailto:hello@mikkeltschentscher.dk\">hello@mikkeltschentscher.dk</"
+"a>.  <a href=\"https://github.com/mikkeltschentscher/tandlaegerne"
+"\">Contribute on GitHub</a>"
+msgstr ""
+"Et brugerdefineret WordPress tema udviklet af <a href=\"https://"
+"mikkeltschentscher.dk\">Mikkel Tschentscher</a> for Tandlægerne på Østebro. "
+"Hvis du har brug for hjælp, kan du kontakte Mikkel på <a href="
+"\"tel:004522513179\"> +45 22 5131 79</a> eller <a href=\"mailto:"
+"hello@mikkeltschentscher.dk\">hello@mikkeltschentscher.dk</a> . <a href="
+"\"https://github.com/mikkeltschentscher/tpobro.dk\">Bidrag på GitHub</a>"
+
+#. Author of the plugin/theme
+msgid "Mikkel Tschentscher"
+msgstr "Mikkel Tschentscher"
+
+#. Author URI of the plugin/theme
+msgid "https://mikkeltschentscher.dk/"
+msgstr "https://mikkeltschentscher.dk/"
+
+#. Template Name of the plugin/theme
+msgid "Template: WooCommerce"
+msgstr "Skabelon: WooCommerce"
+
+#. Template Name of the plugin/theme
+msgid "Template: Booking"
+msgstr "Skabelon: Booking"
+
+#. Template Name of the plugin/theme
+msgid "Template: Price Table"
+msgstr "Skabelon: Pristabel"
+
+#. Template Name of the plugin/theme
+msgid "Template: Frontpage"
+msgstr "Skabelon: Forside"
+
+#. Template Name of the plugin/theme
+msgid "Template: Treatments"
+msgstr "Skabelon: Behandlinger"
+
+#. Template Name of the plugin/theme
+msgid "Template: Booking Reciept"
+msgstr "Template: Bookingkvittering"
+
+#~ msgid "from"
+#~ msgstr "fra"
+
+#~ msgid "We open again tomorrow at 8:00am"
+#~ msgstr "Vi åbner igen i morgen kl. 08:00"
+
+#~ msgid "We open again Monday at 8:00am"
+#~ msgstr "Vi åbner igen mandag kl. 08:00"
+
+#~ msgid "We open at"
+#~ msgstr "Vi åbner kl."
+
+#~ msgid "today"
+#~ msgstr "i dag"
+
+#~ msgid "Opening hours"
+#~ msgstr "Åbningstider"
+
+#~ msgid ""
+#~ "We will call you as soon as possible on %d to determine which time is "
+#~ "best for you"
+#~ msgstr ""
+#~ "Vi ringer dig op hurtigst muligt på tlf. %d for at afklare hvilken ledig "
+#~ "tid som passer dig bedst."
+
+#~ msgid "Error locating %s for inclusion"
+#~ msgstr "Fejl ved lokalisering af %s til inkludering"
+
+#~ msgid "Posts"
+#~ msgstr "Indlæg"
+
+#~ msgid " Archives"
+#~ msgstr " Arkiver"
+
+#~ msgid "Parent "
+#~ msgstr "Forældre "
+
+#~ msgid "All "
+#~ msgstr "Alle "
+
+#~ msgid "Add New "
+#~ msgstr "Tilføj ny "
+
+#~ msgid "New "
+#~ msgstr "Ny "
+
+#~ msgid "Edit "
+#~ msgstr "Rediger "
+
+#~ msgid "Update "
+#~ msgstr "Opdatér "
+
+#~ msgid "View "
+#~ msgstr "Vis "
+
+#~ msgid "Search "
+#~ msgstr "Søg "
+
+#~ msgid "Insert into "
+#~ msgstr "Indsæt i "
+
+#~ msgid "Uploaded to this "
+#~ msgstr "Uploadet til denne"
+
+#~ msgid " list"
+#~ msgstr " liste"
+
+#~ msgid " list navigation"
+#~ msgstr " liste navigation"
+
+#~ msgid "Filter "
+#~ msgstr "Filter "
+
+#~ msgid "Tandlægerne på Østerbro"
+#~ msgstr "Tandlægerne på Østebro"
+
+#~ msgid "https://ww.tpobro.dk/"
+#~ msgstr "https://ww.tpobro.dk/"
+
+#~ msgid ""
+#~ "A custom WordPress theme designed by <a href=\"http://beneath.dk/"
+#~ "\">Beneath</a> & developed by <a href=\"https://mikkeltschentscher.dk"
+#~ "\">Mikkel Tschentscher</a> for Tandlægerne Østebro. If you are in need of "
+#~ "assistance, please contact Mikkel on <a href=\"tel:004522513179\">+45 22 "
+#~ "5131 79</a> or <a href=\"mailto:hello@mikkeltschentscher.dk"
+#~ "\">hello@mikkeltschentscher.dk</a>.  <a href=\"https://github.com/"
+#~ "mikkeltschentscher/tpobro.dk\">Contribute on GitHub</a>"
+#~ msgstr ""
+#~ "Et brugerdefineret WordPress tema udviklet af <a href=\"https://"
+#~ "mikkeltschentscher.dk\">Mikkel Tschentscher</a> for Tandlægerne på "
+#~ "Østebro. Hvis du har brug for hjælp, kan du kontakte Mikkel på <a href="
+#~ "\"tel:004522513179\"> +45 22 5131 79</a> eller <a href=\"mailto:"
+#~ "hello@mikkeltschentscher.dk\">hello@mikkeltschentscher.dk</a> . <a href="
+#~ "\"https://github.com/mikkeltschentscher/tpobro.dk\">Bidrag på GitHub</a>"
+
+#~ msgctxt "from price"
+#~ msgid "Fra"
+#~ msgstr "From"
