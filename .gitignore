@@ -14,7 +14,8 @@
 /wp-content/themes/index.php
 /wp-content/themes/twentytwentytwo*/
 /wp-includes/
-
+/wp-content/wflogs/config-livewaf.php
+/wp-content/wflogs/config-synced.php
 
 
 # Files
@@ -42,5 +43,3 @@
 /xmlrpc.php
 
 *.log
-
-

@@ -1,8 +1,44 @@
 /*===============================
 =            General            =
 ===============================*/
+/*----------  Fonts ----------*/
+html {
+font-size: 100%;
+}
+h1{
+	font-size: 3rem;
+	font-weight: 700;
+	font-family: Kadwa;
+}
+h2{
+	font-size: 2.25rem;
+	font-weight: 700;
+	font-family: Kadwa;
+}
+h3{
+	font-size: 1.6rem;
+	font-weight: 700;
+	font-family: Raleway;
+}
+h4{
+	font-size: 1.25rem;
+	font-weight: 700;
+	font-family: Raleway;
+}
+p{
+	font-size: 1rem;
+	font-weight: 400;
+	font-family: Raleway;
+}
 
+/*----------  Max width content  ----------*/
+.grid-container{
+	max-width: 1280px;
+}
 /*----------  padding for section  ----------*/
 .flexible-inner-section.has-padding + .flexible-inner-section.has-padding{
 	padding-top: 0px;
+}
+.flexible-inner-section .bbh-inner-sectio{
+	padding: 100px 40px;
 }
