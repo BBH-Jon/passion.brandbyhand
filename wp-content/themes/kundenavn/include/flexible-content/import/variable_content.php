@@ -120,8 +120,6 @@
 <div class="flexible-inner-section bbh-inner-section variable-content <?php echo $withbg; ?> <?php if($mg == 'no') { echo 'variable-mg'; } ?> <?php echo $padding; ?> <?php if($rounded === 'Yes'): echo "rounded"; endif; ?>" <?php echo $section_background ?> >
     <div class="outer-wrap <?php echo $containerClass ?>">
         <h1>HEY ITS WORKING!</h1>
-        <p>its still working yay!</p>
-        <span>is it still working?</span>
       <div class="row">
         <?php if($text): ?>
         <div class="top-text">

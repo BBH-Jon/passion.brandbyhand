@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="201" height="66" viewBox="0 0 201 66">
+  <defs>
+    <filter id="Rectangle_359" x="0" y="0" width="201" height="66" filterUnits="userSpaceOnUse">
+      <feOffset dy="4" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Oplev_univers" data-name="Oplev univers" transform="translate(15 11)">
+    <g transform="matrix(1, 0, 0, 1, -15, -11)" filter="url(#Rectangle_359)">
+      <rect id="Rectangle_359-2" data-name="Rectangle 359" width="171" height="36" rx="18" transform="translate(15 11)" fill="#4d5961"/>
+    </g>
+    <text id="Oplev_univers-2" data-name="Oplev univers" transform="translate(72 24)" fill="#fff" font-size="16" font-family="Raleway-Medium, Raleway" font-weight="500" letter-spacing="0.05em"><tspan x="-55" y="0">Oplev univers</tspan></text>
+    <rect id="Rectangle_385" data-name="Rectangle 385" width="35" height="36" rx="17.5" transform="translate(136)" fill="#687984"/>
+  </g>
+</svg>
