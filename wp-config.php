@@ -21,7 +21,7 @@
 
  // ** MySQL settings - You can get this info from your web host ** //
  /** The name of the database for WordPress */
-if(strstr($_server['SERVER_NAME'], 'passionbrandbyhand.local')){
+if(strstr($_SERVER['SERVER_NAME'], 'passionbrandbyhand.local')){
 	define( 'DB_NAME', 'local' );
 	define( 'DB_USER', 'root' );
 	define( 'DB_PASSWORD', 'root' );
@@ -40,7 +40,7 @@ if(strstr($_server['SERVER_NAME'], 'passionbrandbyhand.local')){
 }
 
 
-
+http://passionbrandbyhand.local/
 
 
 /**
