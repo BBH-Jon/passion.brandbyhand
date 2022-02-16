@@ -121,7 +121,7 @@
     <div class="outer-wrap <?php echo $containerClass ?>">
         <h1>HEY ITS WORKING!</h1>
         <h2>HEY its still working! Yes</h2>
-        <span>sup</span>
+        <span>is it still working?</span>
       <div class="row">
         <?php if($text): ?>
         <div class="top-text">
