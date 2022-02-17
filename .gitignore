@@ -7,15 +7,20 @@
 # you can delete this whole section/until Configuration.
 /wp-admin/
 /dup-installer/
-/wp-content/index.php
-/wp-content/languages
-/wp-content/wflogs
-/wp-content/plugins/index.php
-/wp-content/themes/index.php
-/wp-content/themes/twentytwentytwo*/
-/wp-includes/
-/wp-content/wflogs/config-livewaf.php
-/wp-content/wflogs/config-synced.php
+wp-content/index.php
+wp-content/languages/
+wp-content/wflogs/
+wp-content/plugins/index.php
+wp-content/themes/index.php
+wp-content/themes/twentytwentytwo*/
+wp-includes/
+wp-content/wflogs/config-livewaf.php
+wp-content/wflogs/config-synced.php
+wp-content/wp-rocket-config/
+wp-content/uploads/
+wp-content/upgrade/
+wp-content/plugins/
+wp-content/mu-plugins/
 
 
 # Files
@@ -24,7 +29,7 @@
 /dup-wp-config-arc__75e69e6-14090039.txt
 /index.php
 /kint.phar
-/license.html
+/licens.html
 /license.txt
 /maintenance.html
 /readme.html
