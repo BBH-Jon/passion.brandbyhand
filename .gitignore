@@ -21,7 +21,7 @@ wp-content/uploads/
 wp-content/upgrade/
 wp-content/plugins/
 wp-content/mu-plugins/
-
+wp-content/backups-dup-lite/
 
 # Files
 /.htaccess__75e69e6-14090039

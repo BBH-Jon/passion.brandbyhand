@@ -22,14 +22,47 @@
   -o-transition: all 0.4s ease-in-out;
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
-  &.primary-button {
-    color: $colorWhite;
-    background-color: black;
-    &:hover {
-      background-color: white;
-      color: black;
+    &.primary-button {
+        position: relative;
+        display: block;
+        font-weight: 600;
+        line-height: 1;
+        text-transform: uppercase;
+        letter-spacing: 0.6px;
+        text-align: left;
+        white-space: nowrap;
+        padding: 7px 10px 7px 20px;
+        z-index: 10;
+        background-color: #4c5c64;
+        color: white;
+        max-width: 171px;
+        font: normal normal 500 0.75rem/23px Raleway;
+        &:after{
+            content: '';
+            position: absolute;
+            top: 0;
+            right: 0;
+            border-radius: 50px;
+            width: 38px;
+            height: 100%;
+            background: #687984;
+            -webkit-transition: all .4s ease;
+            -o-transition: all .4s ease;
+            transition: all .4s ease;
+            color:white;
+        }
+        &:hover{
+            .primary-button {
+                position: relative;
+                z-index: 10;
+            }
+            &:after{
+                width: 100%;
+                content:'';
+                z-index: 1;
+            }
+        }
     }
-  }
   &.secondary-button {
     background: #ffffff 0% 0% no-repeat padding-box;
     color: black;

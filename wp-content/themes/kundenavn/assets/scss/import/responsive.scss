@@ -5,6 +5,90 @@
 
 } //1450 end
 
+// @media only screen and (max-width: 1366px){
+// 	:root {
+// 	  font-size: calc(1vw + 1vh + .5vmin);
+// 	}
+// 	h1{
+// 		font-size: 2.5rem;
+// 		font-weight: 700;
+// 		font-family: Kadwa;
+// 	}
+// 	h2{
+// 		font-size: 1.75rem;
+// 		font-weight: 700;
+// 		font-family: Kadwa;
+// 	}
+// 	h3{
+// 		font-size: 1.3rem;
+// 		font-weight: 700;
+// 		font-family: Raleway;
+// 	}
+// 	h4{
+// 		font-size: 1.25rem;
+// 		font-weight: 700;
+// 		font-family: Raleway;
+// 	}
+// }
+
+/*-Desktop (Laptop) 1375px-*/
+@media screen and (max-width: 1375px) {
+    h1{
+		font-size: 2.5rem;
+		font-weight: 700;
+		font-family: Kadwa;
+	}
+	h2{
+		font-size: 1.75rem;
+		font-weight: 700;
+		font-family: Kadwa;
+	}
+	h3{
+		font-size: 1.3rem;
+		font-weight: 700;
+		font-family: Raleway;
+	}
+	h4{
+		font-size: 1.25rem;
+		font-weight: 700;
+		font-family: Raleway;
+	}
+    p{
+        font-size: 1rem;
+		font-weight: 500;
+		font-family: Raleway;
+    }
+    /*----------  Header section  ----------*/
+    .home{
+    	.header-section{
+    		height: 767px;
+    		.content{
+    		}
+    	}
+    }
+    .header-section{
+    	.content{
+    		.row{
+    			display: flex;
+    			align-items: center;
+    			.highlight {
+    			  background: #ffcd0b;
+    			}
+    			img{
+                    width: 436px;
+                    height: 352px;
+    				object-fit: cover;
+    			}
+    		}
+    	}
+
+    	&.img_right{
+
+    	}
+    }
+} //1200 end
+
+
 /*-Desktop (Macbook) 1200px-*/
 @media screen and (max-width: 1200px) {
 

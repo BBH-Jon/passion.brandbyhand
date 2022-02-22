@@ -860,7 +860,8 @@
                             },
                             "choices": {
                                 "img_right": "Billede på højre side",
-                                "img_left": "Billede på venstre side"
+                                "img_left": "Billede på venstre side",
+                                "front_page": "Forside"
                             },
                             "allow_null": 0,
                             "other_choice": 0,
@@ -1019,6 +1020,125 @@
                             "max_height": "",
                             "max_size": "",
                             "mime_types": ""
+                        },
+                        {
+                            "key": "field_620f5edb53bcb",
+                            "label": "Highlighted ord i overskrift",
+                            "name": "highligted_ord",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": ""
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_6214bbd8d9a9f": {
+                    "key": "layout_6214bbd8d9a9f",
+                    "name": "col3_fingerprint_card",
+                    "label": "3 Kolonner - Fingeraftryk kort",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_6214bbffd9aa0",
+                            "label": "Col12",
+                            "name": "",
+                            "type": "column",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "column": "1_1",
+                            "end_column": 0
+                        },
+                        {
+                            "key": "field_6214bc18d9aa1",
+                            "label": "Tilføj et fingeraftryk kort",
+                            "name": "add_fingerprint_card",
+                            "type": "repeater",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "collapsed": "",
+                            "min": 0,
+                            "max": 0,
+                            "layout": "block",
+                            "button_label": "",
+                            "sub_fields": [
+                                {
+                                    "key": "field_6214bc6fd9aa5",
+                                    "label": "Link",
+                                    "name": "link",
+                                    "type": "link",
+                                    "instructions": "",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "return_format": "array"
+                                },
+                                {
+                                    "key": "field_6214bc47d9aa3",
+                                    "label": "Overskrift",
+                                    "name": "headline",
+                                    "type": "text",
+                                    "instructions": "",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "default_value": "",
+                                    "placeholder": "",
+                                    "prepend": "",
+                                    "append": "",
+                                    "maxlength": ""
+                                },
+                                {
+                                    "key": "field_6214bc54d9aa4",
+                                    "label": "Tekst",
+                                    "name": "text",
+                                    "type": "textarea",
+                                    "instructions": "",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "default_value": "",
+                                    "placeholder": "",
+                                    "maxlength": "",
+                                    "rows": "",
+                                    "new_lines": ""
+                                }
+                            ]
                         }
                     ],
                     "min": "",
@@ -1048,5 +1168,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1644919667
+    "modified": 1645531551
 }

@@ -2,43 +2,153 @@
 =            General            =
 ===============================*/
 /*----------  Fonts ----------*/
+
+
 html {
-font-size: 100%;
+	font-size: 100%;
+	box-sizing: border-box;
+}
+body {
+ 	line-height: 1.5;
+}
+*,
+*::before,
+*::after {
+  	box-sizing: inherit;
 }
 h1{
 	font-size: 3rem;
 	font-weight: 700;
 	font-family: Kadwa;
+	text-decoration: none;
+	color:#000000;
 }
 h2{
 	font-size: 2.25rem;
 	font-weight: 700;
 	font-family: Kadwa;
+	text-decoration: none;
+	color:#000000;
 }
 h3{
 	font-size: 1.6rem;
 	font-weight: 700;
 	font-family: Raleway;
+	text-decoration: none;
+	color:#000000;
 }
 h4{
 	font-size: 1.25rem;
 	font-weight: 700;
 	font-family: Raleway;
+	text-decoration: none;
+	color:#000000;
 }
 p{
 	font-size: 1rem;
 	font-weight: 400;
 	font-family: Raleway;
 }
+a[href]:not([class]) {
+	color: #4D5961;
+	text-decoration: underline;
+	font-size: 1rem;
+}
+a[href^="http"]:empty::before {
+  content: attr(href);
+}
 
 /*----------  Max width content  ----------*/
 .grid-container{
-	max-width: 1280px;
+	max-width: 1360px;
 }
 /*----------  padding for section  ----------*/
 .flexible-inner-section.has-padding + .flexible-inner-section.has-padding{
 	padding-top: 0px;
 }
-.flexible-inner-section .bbh-inner-sectio{
+.flexible-inner-section{
 	padding: 100px 40px;
+}
+
+/*----------  Header section  ----------*/
+.home{
+	.header-section{
+		height: 978px;
+		.content{
+		}
+	}
+}
+.header-section{
+	.content{
+		padding: 100px 40px;
+		.row{
+			display: flex;
+			align-items: center;
+			.highlight {
+			  background: #ffcd0b;
+			}
+			img{
+				width: 581px;
+				height: 469px;
+				object-fit: cover;
+			}
+		}
+	}
+
+	&.img_right{
+
+	}
+}
+/*----------  3 col fingerprint cards  ----------*/
+.col3-fingerprint{
+	.grid-inner-container{
+		display: grid;
+		grid-template-rows: 1fr;
+		grid-template-columns: repeat(3, 1fr);
+		gap: 30px 37px;
+		.card-container{
+			&:nth-child(1){
+				i{
+					&:before{
+						color:#72808a59;
+					}
+				}
+			}
+			&:nth-child(2){
+				i{
+					&:before{
+						color:#BAA995;
+					}
+				}
+			}
+			&:nth-child(3){
+				i{
+					&:before{
+						color:#ffcd0b;
+					}
+				}
+			}
+			.card{
+				width: 400px;
+				height: 420px;
+				display: flex;
+				flex-direction: column;
+				box-shadow: 0px 5px 10px #0000004D;
+				border-radius: 10px;
+				position: relative;
+				top: -250px;
+				background: #FFFFFF 0% 0% no-repeat padding-box;
+				justify-content: center;
+				text-align: center;
+				padding: 40px 50px;
+				img{
+					width: 108px;
+					height: 116px;
+				}
+				i{
+					font-size: 8rem;
+				}
+			}
+		}
+	}
 }

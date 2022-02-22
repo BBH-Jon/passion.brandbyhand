@@ -1,0 +1,33 @@
+
+.main-navigation{
+    height: 100px;
+    padding-top: 22px;
+    .navigation-branding{
+        img{
+            width: 210px;
+            height: 76px;
+        }
+    }
+    .main-nav{
+        ul{
+            li{
+                a{
+                    font: normal normal bold 1.25rem/24px Raleway;
+                    text-decoration: none;
+                    &:hover{
+                        background-color: transparent;
+                        text-decoration: underline;
+                        text-decoration-color: #ffcd0b;
+                    }
+                }
+            }
+            li[class*="current-menu-"] > a{
+                background-color: transparent;
+
+            }
+            li:not([class*="current-menu-"]):hover > a{
+                background-color: transparent;
+            }
+        }
+    }
+}

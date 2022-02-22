@@ -6,14 +6,15 @@ $headline_left = get_sub_field('headline_left');
 $headline_right = get_sub_field('headline_right');
 $img_right = get_sub_field('img_right');
 $img_left = get_sub_field('img_left');
+$highligted_ord = get_sub_field('highligted_ord');
 
 ?>
 
 <?php if ($or === 'img_right'): ?>
-    <section style="background-color:<?php echo $color;?>" class="flexible-inner-section bbh-inner-section header-section <?php echo $or;?>">
+    <section style="background-color:<?php echo $color;?>" class="header-section <?php echo $or;?>">
         <div class="content grid-container">
             <div class="row">
-                <div class="col-lg-6">
+                <div class="col-lg-6" id="h1_highlight">
                     <?php echo $headline_left;?>
                 </div>
                 <div class="col-lg-6">
@@ -29,10 +30,22 @@ $img_left = get_sub_field('img_left');
                 <div class="col-lg-6">
                     <img class="lazyload" src="<?php echo $img_left['url']; ?>" alt="">
                 </div>
-                <div class="col-lg-6">
+                <div class="col-lg-6" id="h1_highlight">
                     <?php echo $headline_right;?>
                 </div>
             </div>
         </div>
     </section>
 <?php endif;?>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+<script>
+var h1 = $('#h1_highlight h1');
+var str = '<?php echo $highligted_ord;?>';
+h1.html(h1.text().replace(str, '<span class="highlight">'+str+'</span>'));
+</script>
+
+<style media="screen">
+    .main-navigation{
+        background-color: <?php echo $color;?>
+    }
+</style>
