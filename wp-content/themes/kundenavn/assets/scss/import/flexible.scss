@@ -266,11 +266,15 @@ a[href^="http"]:empty::before {
 						border-top-right-radius: 8px;
 						width: 100%;
 						height: 149px;
+						margin-bottom: -7px;
 					}
 					.mini-card-inner{
 						display: flex;
 						flex-direction: column;
 						padding: 10px;
+						position: relative;
+						height: 100%;
+						background-color: #F7F7F1;
 						span{
 							font: normal normal 600 12px/50px Raleway;
 							margin-top: -20px;
@@ -289,11 +293,11 @@ a[href^="http"]:empty::before {
 							margin-block-start: auto;
 							display: grid;
 							grid-template-columns: 40px 1fr;
-							gap: 0.5rem;
 							align-items: center;
 							color: #565656;
 							line-height: 1.3;
-							padding-top: 0.5rem;
+							position: absolute;
+							bottom:40px;
 							img{
 								width: 31px;
 								height: 31px;
