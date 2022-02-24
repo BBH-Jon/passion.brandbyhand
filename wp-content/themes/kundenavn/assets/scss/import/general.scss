@@ -106,6 +106,12 @@ body.page-template-default.page #page {
   padding-left: 0px;
   padding-right: 0px;
 }
+body.post-template-default #page{
+    max-width: 100%;
+    width: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+}
 /*-------------- brandbyhand page -------------*/
 .bbh {
   a {
@@ -159,12 +165,12 @@ body.page-template-default.page #page {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  margin-top: 50px;
+  // margin-top: 50px;
   &.lowpadding {
-    padding: 50px 0;
+    padding: 25px 0;
   }
   &.highpadding {
-    padding: 100px 0;
+    padding: 50px 0;
   }
   &.rounded {
     border-radius: 0px 0px 200px 0px;
@@ -210,6 +216,9 @@ body.page-template-default.page #page {
       position: relative;
       overflow: hidden;
     }
+  }
+  strong{
+      font: normal normal bold 16px/32px Kadwa;
   }
 }
 

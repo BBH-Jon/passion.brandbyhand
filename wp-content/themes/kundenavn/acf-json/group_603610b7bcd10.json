@@ -861,7 +861,8 @@
                             "choices": {
                                 "img_right": "Billede på højre side",
                                 "img_left": "Billede på venstre side",
-                                "front_page": "Forside"
+                                "front_page": "Forside",
+                                "article": "Artikel"
                             },
                             "allow_null": 0,
                             "other_choice": 0,
@@ -963,6 +964,33 @@
                             "mime_types": ""
                         },
                         {
+                            "key": "field_621731265f977",
+                            "label": "Overskrift - Midten",
+                            "name": "headline_mid",
+                            "type": "wysiwyg",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": [
+                                [
+                                    {
+                                        "field": "field_620b79c370f99",
+                                        "operator": "==",
+                                        "value": "article"
+                                    }
+                                ]
+                            ],
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "tabs": "all",
+                            "toolbar": "full",
+                            "media_upload": 1,
+                            "delay": 0
+                        },
+                        {
                             "key": "field_620b7acf70f9e",
                             "label": "Overskrift - Højre side",
                             "name": "headline_right",
@@ -988,6 +1016,38 @@
                             "toolbar": "full",
                             "media_upload": 0,
                             "delay": 0
+                        },
+                        {
+                            "key": "field_621730d4e1146",
+                            "label": "Billede - Midten",
+                            "name": "img_mid",
+                            "type": "image",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": [
+                                [
+                                    {
+                                        "field": "field_620b79c370f99",
+                                        "operator": "==",
+                                        "value": "article"
+                                    }
+                                ]
+                            ],
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "return_format": "array",
+                            "preview_size": "medium",
+                            "library": "all",
+                            "min_width": "",
+                            "min_height": "",
+                            "min_size": "",
+                            "max_width": "",
+                            "max_height": "",
+                            "max_size": "",
+                            "mime_types": ""
                         },
                         {
                             "key": "field_620b7ad270f9f",
@@ -1143,6 +1203,276 @@
                     ],
                     "min": "",
                     "max": ""
+                },
+                "layout_6215ee5e5b943": {
+                    "key": "layout_6215ee5e5b943",
+                    "name": "single_bar",
+                    "label": "Bar - Modtag tips og tricks",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_6215ee865b944",
+                            "label": "col",
+                            "name": "",
+                            "type": "column",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "column": "1_1",
+                            "end_column": 0
+                        },
+                        {
+                            "key": "field_6215ee8e5b945",
+                            "label": "Hvad skal stå her",
+                            "name": "",
+                            "type": "message",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "message": "Jeg ved ikke helt hvad denne skal kunne!",
+                            "new_lines": "wpautop",
+                            "esc_html": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_621603d52bf0f": {
+                    "key": "layout_621603d52bf0f",
+                    "name": "popular_posts",
+                    "label": "Populære indlæg",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_621603d52bf10",
+                            "label": "col",
+                            "name": "",
+                            "type": "column",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "column": "1_1",
+                            "end_column": 0
+                        },
+                        {
+                            "key": "field_621603d52bf11",
+                            "label": "Populære indlæg",
+                            "name": "",
+                            "type": "message",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "message": "Populære indlæg",
+                            "new_lines": "wpautop",
+                            "esc_html": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_621733b8eabb0": {
+                    "key": "layout_621733b8eabb0",
+                    "name": "article_content",
+                    "label": "Artikel - Indlæg",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_621733cdeabb1",
+                            "label": "Col4",
+                            "name": "col",
+                            "type": "column",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "column": "1_1",
+                            "end_column": 0
+                        },
+                        {
+                            "key": "field_62173400eabb5",
+                            "label": "Forfatter - Navn og dato",
+                            "name": "writer_name",
+                            "type": "text",
+                            "instructions": "Eks.: Af Celina Sjøstedt - 14 februar, 2022",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": ""
+                        },
+                        {
+                            "key": "field_62173419eabb6",
+                            "label": "Forfatter - Billede",
+                            "name": "writer_img",
+                            "type": "image",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "return_format": "array",
+                            "preview_size": "medium",
+                            "library": "all",
+                            "min_width": "",
+                            "min_height": "",
+                            "min_size": "",
+                            "max_width": "",
+                            "max_height": "",
+                            "max_size": "",
+                            "mime_types": ""
+                        },
+                        {
+                            "key": "field_6217342feabb7",
+                            "label": "Social medie",
+                            "name": "social_medie",
+                            "type": "select",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "choices": {
+                                "facebook": "Facebook",
+                                "linkedin": "Linkedin",
+                                "instagram": "Instagram",
+                                "twitter": "Twitter"
+                            },
+                            "default_value": [],
+                            "allow_null": 0,
+                            "multiple": 1,
+                            "ui": 1,
+                            "ajax": 0,
+                            "return_format": "value",
+                            "placeholder": ""
+                        },
+                        {
+                            "key": "field_6217346feabb8",
+                            "label": "Artikel",
+                            "name": "artcile",
+                            "type": "wysiwyg",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "tabs": "all",
+                            "toolbar": "full",
+                            "media_upload": 1,
+                            "delay": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_62174c53c6cda": {
+                    "key": "layout_62174c53c6cda",
+                    "name": "contact_cta",
+                    "label": "Kontakt os - CTA",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_62174c74c6cdb",
+                            "label": "Col",
+                            "name": "",
+                            "type": "column",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "column": "1_1",
+                            "end_column": 0
+                        },
+                        {
+                            "key": "field_62174c7fc6cdc",
+                            "label": "Indhold",
+                            "name": "content",
+                            "type": "wysiwyg",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "tabs": "all",
+                            "toolbar": "full",
+                            "media_upload": 1,
+                            "delay": 0
+                        },
+                        {
+                            "key": "field_62174e63acac9",
+                            "label": "Billede",
+                            "name": "img",
+                            "type": "image",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "return_format": "array",
+                            "preview_size": "medium",
+                            "library": "all",
+                            "min_width": "",
+                            "min_height": "",
+                            "min_size": "",
+                            "max_width": "",
+                            "max_height": "",
+                            "max_size": "",
+                            "mime_types": ""
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
                 }
             },
             "button_label": "Add Row",
@@ -1157,6 +1487,13 @@
                 "operator": "==",
                 "value": "page"
             }
+        ],
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "post"
+            }
         ]
     ],
     "menu_order": 0,
@@ -1168,5 +1505,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1645531551
+    "modified": 1645694575
 }

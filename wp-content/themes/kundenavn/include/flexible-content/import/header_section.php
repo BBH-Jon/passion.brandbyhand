@@ -7,6 +7,8 @@ $headline_right = get_sub_field('headline_right');
 $img_right = get_sub_field('img_right');
 $img_left = get_sub_field('img_left');
 $highligted_ord = get_sub_field('highligted_ord');
+$headline_mid = get_sub_field('headline_mid');
+$img_mid = get_sub_field('img_mid');
 
 ?>
 
@@ -19,6 +21,19 @@ $highligted_ord = get_sub_field('highligted_ord');
                 </div>
                 <div class="col-lg-6">
                     <img class="lazyload" src="<?php echo $img_right['url']; ?>" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+<?php elseif(($or === 'article')): ?>
+    <section style="background-color:<?php echo $color;?>" class="header-section <?php echo $or;?>">
+        <div class="content grid-container">
+            <div class="article-header-inner" id="h1_highlight">
+                <div class="headline">
+                    <?php echo $headline_mid;?>
+                </div>
+                <div class="hero-img">
+                    <img class="lazyload" src="<?php echo $img_mid['url']; ?>" alt="">
                 </div>
             </div>
         </div>

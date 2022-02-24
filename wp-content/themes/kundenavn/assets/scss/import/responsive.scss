@@ -58,10 +58,13 @@
 		font-weight: 500;
 		font-family: Raleway;
     }
+    body .grid-container{
+        max-width: 1040px;
+    }
     /*----------  Header section  ----------*/
     .home{
     	.header-section{
-    		height: 767px;
+    		height: 667px;
     		.content{
     		}
     	}
@@ -85,6 +88,30 @@
     	&.img_right{
 
     	}
+    }
+    /*----------  3 col fingerprint cards  ----------*/
+    .col3-fingerprint{
+        margin-top: -100px;
+        .grid-inner-container{
+            gap: 30px 42px;
+            .card-container{
+                .card{
+                    width: 292px;
+                    height: 300px;
+                    padding: 25px 25px;
+                    img{
+                        width: 108px;
+                        height: 116px;
+                    }
+                    i{
+                        font-size: 5rem;
+                    }
+                    .text{
+                        overflow: hidden;
+                    }
+                }
+            }
+        }
     }
 } //1200 end
 
