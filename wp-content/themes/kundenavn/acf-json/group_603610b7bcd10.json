@@ -1473,6 +1473,49 @@
                     ],
                     "min": "",
                     "max": ""
+                },
+                "layout_621762963aea7": {
+                    "key": "layout_621762963aea7",
+                    "name": "filter",
+                    "label": "Filter",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_6217629d3aea8",
+                            "label": "Col",
+                            "name": "col",
+                            "type": "column",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "column": "1_1",
+                            "end_column": 0
+                        },
+                        {
+                            "key": "field_621762ab3aea9",
+                            "label": "Filter",
+                            "name": "",
+                            "type": "message",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "message": "Filter tilføjes!",
+                            "new_lines": "wpautop",
+                            "esc_html": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
                 }
             },
             "button_label": "Add Row",
@@ -1494,20 +1537,6 @@
                 "operator": "==",
                 "value": "post"
             }
-        ],
-        [
-            {
-                "param": "post_type",
-                "operator": "==",
-                "value": "news"
-            }
-        ],
-        [
-            {
-                "param": "post_type",
-                "operator": "==",
-                "value": "ebook"
-            }
         ]
     ],
     "menu_order": 0,
@@ -1519,5 +1548,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1645695890
+    "modified": 1645699801
 }

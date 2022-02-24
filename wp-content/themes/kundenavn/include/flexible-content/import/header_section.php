@@ -51,7 +51,7 @@ $img_mid = get_sub_field('img_mid');
             </div>
         </div>
     </section>
-<?php else: ?>
+<?php elseif($or === 'img_left'): ?>
     <section style="background-color:<?php echo $color;?>" class="flexible-inner-section bbh-inner-section header-section <?php echo $or;?>">
         <div class="content grid-container">
             <div class="row">

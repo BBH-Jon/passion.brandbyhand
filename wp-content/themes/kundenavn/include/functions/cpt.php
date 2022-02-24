@@ -23,7 +23,7 @@ function create_news_cpt() {
     $args = array(
         'labels' => $labels,
         'supports' => array( 'editor', 'thumbnail', 'title' ),
-        'taxonomies' => array(),
+        'taxonomies' => array('category'),
         'menu_icon' => 'https://developer.wordpress.org/resource/dashicons/#admin-comments',
     'public' => true,
     'show_ui' => true,
@@ -68,7 +68,7 @@ function create_ebook_cpt() {
     $args = array(
         'labels' => $labels,
         'supports' => array( 'editor', 'thumbnail', 'title' ),
-        'taxonomies' => array(),
+        'taxonomies' => array('category'),
         'menu_icon' => 'https://developer.wordpress.org/resource/dashicons/#admin-comments',
     'public' => true,
     'show_ui' => true,
