@@ -95,7 +95,24 @@ a[href^="http"]:empty::before {
 			}
 		}
 	}
-
+	&.img_right{
+		.content{
+			.row{
+				img{
+					box-shadow: 0px 3px 15px #00000040;
+				}
+			}
+		}
+	}
+	&.img_left{
+		.content{
+			.row{
+				img{
+					box-shadow: 0px 3px 15px #00000040;
+				}
+			}
+		}
+	}
 	&.article{
 		.article-header-inner{
 			display: flex;
@@ -256,6 +273,7 @@ a[href^="http"]:empty::before {
 					transition: .2s;
 					margin: 0 10px;
 					min-width: 231px;
+					max-width: 241px;
 					height: 402px;;
     				transition: 0.3s;
 					&:hover{

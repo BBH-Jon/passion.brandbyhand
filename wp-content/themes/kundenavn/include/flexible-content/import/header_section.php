@@ -38,6 +38,19 @@ $img_mid = get_sub_field('img_mid');
             </div>
         </div>
     </section>
+<?php elseif(($or === 'front_page')): ?>
+    <section style="background-color:<?php echo $color;?>" class="header-section <?php echo $or;?>">
+        <div class="content grid-container">
+            <div class="row">
+                <div class="col-lg-6" id="h1_highlight">
+                    <?php echo $headline_left;?>
+                </div>
+                <div class="col-lg-6">
+                    <img class="lazyload" src="<?php echo $img_right['url']; ?>" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
 <?php else: ?>
     <section style="background-color:<?php echo $color;?>" class="flexible-inner-section bbh-inner-section header-section <?php echo $or;?>">
         <div class="content grid-container">
