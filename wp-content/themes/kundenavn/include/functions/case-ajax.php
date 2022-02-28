@@ -1,18 +1,18 @@
 <?php
-add_action('wp_ajax_filter_ajax', 'filter_ajax'); // Change names according to your form
-add_action('wp_ajax_nopriv_filter_ajax', 'filter_ajax'); // Change names according to your form
+add_action('wp_ajax_cases_ajax', 'cases_ajax'); // Change names according to your form
+add_action('wp_ajax_nopriv_cases_ajax', 'cases_ajax'); // Change names according to your form
 /*-------------- Function to execute -------------*/
-function filter_ajax(){
+function cases_ajax(){
     // check for nonce security
     $nonce = $_POST['security'];
-    if ( ! wp_verify_nonce( $nonce, 'filter-ajax-nonce' ) ){
+    if ( ! wp_verify_nonce( $nonce, 'cases-ajax-nonce' ) ){
         die;
     }
 
     $args = array(
         'orderby' => 'ID',
         'order'  => 'ASC',
-        'post_type' => 'post',
+        'post_type' => array('cases', 'news', 'post'),
         'posts_per_page' => -1,
         'post_status' => 'publish',
         'tax_query' => array(
@@ -21,7 +21,7 @@ function filter_ajax(){
     );
 
     // compare on all taxonomies
-    $taxonomies = get_object_taxonomies('category');
+    $taxonomies = get_object_taxonomies('cases', 'cases', 'news', 'news','post');
     foreach($taxonomies as $tax) {
         $terms = get_terms($tax->name, 'hide_empty=0');
         if( isset( $_POST[$tax->name] ) && !empty( $_POST[$tax->name] )){
@@ -71,13 +71,16 @@ function filter_ajax(){
         <?php
         wp_reset_postdata();
     else :
-        echo '<div class="grid-container"><h4 class="no-matches">Der findes ingen filter i den valgte kategori.</h4></div>';
+        echo '<div class="grid-container"><h4 class="no-matches">Der findes ingen cases i den valgte kategori.</h4></div>';
     endif;
-    $filter = ob_get_clean(); // Save case markup in output buffer
+    //$cases = ob_get_clean(); // Save case markup in output buffer
+    $news = ob_get_clean(); // Save person grid markup in output buffer
 
-    $send = array(
-        'filter' => $filter
+        $send = array(
+            'news' => $news
     );
+
+
     wp_send_json($send); // Send json
 
     wp_die();

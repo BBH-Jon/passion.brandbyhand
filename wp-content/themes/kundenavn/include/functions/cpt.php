@@ -45,7 +45,7 @@ add_action( 'init', 'create_news_cpt', 0 );
 
 
 function create_ebook_cpt() {
-    $cpt = 'ebook';
+    $cpt = 'cases';
     $cpt_singular = 'E-book';
     $cpt_plural = 'E-books';
 

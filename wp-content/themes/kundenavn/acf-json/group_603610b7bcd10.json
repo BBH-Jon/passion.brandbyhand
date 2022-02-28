@@ -1537,6 +1537,20 @@
                 "operator": "==",
                 "value": "post"
             }
+        ],
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "cases"
+            }
+        ],
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "news"
+            }
         ]
     ],
     "menu_order": 0,
@@ -1548,5 +1562,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1645699801
+    "modified": 1645779284
 }
