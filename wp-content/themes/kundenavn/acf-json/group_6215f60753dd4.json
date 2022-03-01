@@ -1,6 +1,6 @@
 {
     "key": "group_6215f60753dd4",
-    "title": "Artikler info",
+    "title": "Indlæg info",
     "fields": [
         {
             "key": "field_6215f65562fb1",
@@ -87,6 +87,40 @@
             "prepend": "",
             "append": "",
             "maxlength": ""
+        },
+        {
+            "key": "field_621c89c27dbc3",
+            "label": "Baggrundsfarve",
+            "name": "background_color",
+            "type": "color_picker",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "enable_opacity": 0,
+            "return_format": "string"
+        },
+        {
+            "key": "field_621c89da7dbc4",
+            "label": "Tekstfarve",
+            "name": "text_color",
+            "type": "color_picker",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "enable_opacity": 0,
+            "return_format": "string"
         }
     ],
     "location": [
@@ -121,5 +155,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1645779297
+    "modified": 1646037517
 }

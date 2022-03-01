@@ -29,14 +29,14 @@
         line-height: 1;
         text-transform: uppercase;
         letter-spacing: 0.6px;
-        text-align: left;
+        text-align: left!important;
         white-space: nowrap;
         padding: 7px 10px 7px 20px;
         z-index: 10;
-        background-color: #4c5c64;
-        color: white;
-        max-width: 171px;
-        font: normal normal 500 0.75rem/23px Raleway;
+        background-color: #4c5c64!important;
+        color: white!important;
+        max-width: 171px!important;
+        font: normal normal 500 0.75rem/23px Raleway!important;
         &:after{
             content: '';
             position: absolute;

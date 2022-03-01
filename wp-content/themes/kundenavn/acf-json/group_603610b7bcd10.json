@@ -1477,7 +1477,7 @@
                 "layout_621762963aea7": {
                     "key": "layout_621762963aea7",
                     "name": "filter",
-                    "label": "Filter",
+                    "label": "Filter - Alle",
                     "display": "block",
                     "sub_fields": [
                         {
@@ -1512,6 +1512,190 @@
                             "message": "Filter tilføjes!",
                             "new_lines": "wpautop",
                             "esc_html": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_621c9163341b4": {
+                    "key": "layout_621c9163341b4",
+                    "name": "filter_article",
+                    "label": "Filter - Artikler",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_621c9163341b5",
+                            "label": "Col",
+                            "name": "col",
+                            "type": "column",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "column": "1_1",
+                            "end_column": 0
+                        },
+                        {
+                            "key": "field_621c9163341b6",
+                            "label": "Filter - Artikel",
+                            "name": "",
+                            "type": "message",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "message": "Artikel filter tilføjes!",
+                            "new_lines": "wpautop",
+                            "esc_html": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_621ca14d50e21": {
+                    "key": "layout_621ca14d50e21",
+                    "name": "filter_ebooks",
+                    "label": "Filter - E-bøger",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_621ca14d50e22",
+                            "label": "Col",
+                            "name": "col",
+                            "type": "column",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "column": "1_1",
+                            "end_column": 0
+                        },
+                        {
+                            "key": "field_621ca14d50e23",
+                            "label": "Filter - E-bøger",
+                            "name": "",
+                            "type": "message",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "message": "E-bøger filter tilføjes!",
+                            "new_lines": "wpautop",
+                            "esc_html": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_621ca17050e24": {
+                    "key": "layout_621ca17050e24",
+                    "name": "filter_news",
+                    "label": "Filter - Nyheder",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_621ca17d50e25",
+                            "label": "Col",
+                            "name": "",
+                            "type": "column",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "column": "1_1",
+                            "end_column": 0
+                        },
+                        {
+                            "key": "field_621ca18450e26",
+                            "label": "Filter - Nyheder",
+                            "name": "",
+                            "type": "message",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "message": "Nyheder filter tilføjes!",
+                            "new_lines": "wpautop",
+                            "esc_html": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_621c892fd3349": {
+                    "key": "layout_621c892fd3349",
+                    "name": "col3_posts",
+                    "label": "3 Kolonner - Indlæg",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_621c8967d334a",
+                            "label": "Col",
+                            "name": "",
+                            "type": "column",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "column": "1_1",
+                            "end_column": 0
+                        },
+                        {
+                            "key": "field_621c8977d334b",
+                            "label": "Vælg 3 - Indlæg",
+                            "name": "pick_posts",
+                            "type": "relationship",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "post_type": [
+                                "post",
+                                "cases",
+                                "news"
+                            ],
+                            "taxonomy": "",
+                            "filters": [
+                                "search",
+                                "post_type",
+                                "taxonomy"
+                            ],
+                            "elements": "",
+                            "min": 3,
+                            "max": 3,
+                            "return_format": "object"
                         }
                     ],
                     "min": "",
@@ -1562,5 +1746,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1645779284
+    "modified": 1646043560
 }

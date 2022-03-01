@@ -22,9 +22,9 @@
         </div>
     </div>
     <?php // nonce security; ?>
-    <input type="hidden" name="security" id="cases-ajax-nonce" value="<?php echo wp_create_nonce( 'cases-ajax-nonce' ) ?>"/><!-- "id'et" går igen i wp_create_nonce og igen i din ajax fil -->
+    <input type="hidden" name="security" id="news-ajax-nonce" value="<?php echo wp_create_nonce( 'news-ajax-nonce' ) ?>"/><!-- "id'et" går igen i wp_create_nonce og igen i din ajax fil -->
 <!-- The below input value must be called the same as your ajax function. -->
-    <input type="hidden" name="action" value="cases_ajax">
+    <input type="hidden" name="action" value="news_ajax">
 </form>
 
 <div id="response" class="cards">
@@ -33,9 +33,9 @@
                             $args = array(
                                 'orderby' => 'date',
                                 'order'  => 'DESC',
-                                'post_type' => array('cases', 'news', 'post'),
+                                'post_type' => array('news'),
                                 //'posts_per_page' => 3,
-                                'posts_per_page' => -1,
+                                'posts_per_page' => 6,
                                 'post_status' => 'publish',
                              );
                              $loop = new WP_Query($args);
@@ -56,7 +56,7 @@
                                         <img src="<?php echo esc_url($img['url']); ?>" alt="<?php echo esc_attr($img['alt']); ?>" />
                                         <div class="mini-card-inner" style="background-color:<?php echo $colorbackground;?>;">
                                             <h4 style="color:<?php echo $colortext;?>"><?php echo get_the_title(); ?></h4>
-                                            <span style="color:<?php echo $colortext;?>">Artikler</span>
+                                            <span style="color:<?php echo $colortext;?>">Nyhed</span>
                                             <span class="reading-time" style="color:<?php echo $colortext;?>">
                                                 <?php echo $reading_time;?>
                                             </span>

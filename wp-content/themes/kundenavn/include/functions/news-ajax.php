@@ -1,18 +1,18 @@
 <?php
-add_action('wp_ajax_cases_ajax', 'cases_ajax'); // Change names according to your form
-add_action('wp_ajax_nopriv_cases_ajax', 'cases_ajax'); // Change names according to your form
+add_action('wp_ajax_news_ajax', 'news_ajax'); // Change names according to your form
+add_action('wp_ajax_nopriv_news_ajax', 'news_ajax'); // Change names according to your form
 /*-------------- Function to execute -------------*/
-function cases_ajax(){
+function news_ajax(){
     // check for nonce security
     $nonce = $_POST['security'];
-    if ( ! wp_verify_nonce( $nonce, 'cases-ajax-nonce' ) ){
+    if ( ! wp_verify_nonce( $nonce, 'news-ajax-nonce' ) ){
         die;
     }
 
     $args = array(
         'orderby' => 'ID',
         'order'  => 'ASC',
-        'post_type' => array('post'),
+        'post_type' => array('news'),
         'posts_per_page' => -1,
         'post_status' => 'publish',
         'tax_query' => array(
@@ -56,7 +56,7 @@ function cases_ajax(){
                         <img src="<?php echo esc_url($img['url']); ?>" alt="<?php echo esc_attr($img['alt']); ?>" />
                         <div class="mini-card-inner" style="background-color:<?php echo $colorbackground;?>;">
                             <h4 style="color:<?php echo $colortext;?>"><?php echo get_the_title(); ?></h4>
-                            <span style="color:<?php echo $colortext;?>">Artikel</span>
+                            <span style="color:<?php echo $colortext;?>">Nyhed</span>
                             <span style="color:<?php echo $colortext;?>" class="reading-time">
                                 <?php echo $reading_time;?>
                             </span>
@@ -73,7 +73,7 @@ function cases_ajax(){
         <?php
         wp_reset_postdata();
     else :
-        echo '<div class="grid-container"><h4 class="no-matches">Der findes ingen artikler i den valgte kategori.</h4></div>';
+        echo '<div class="grid-container"><h4 class="no-matches">Der findes ingen nyheder i den valgte kategori.</h4></div>';
     endif;
     //$cases = ob_get_clean(); // Save case markup in output buffer
     $news = ob_get_clean(); // Save person grid markup in output buffer
