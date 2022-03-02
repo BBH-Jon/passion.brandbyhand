@@ -13,7 +13,7 @@ $img_mid = get_sub_field('img_mid');
 ?>
 
 <?php if ($or === 'img_right'): ?>
-    <section style="background-color:<?php echo $color;?>" class="header-section <?php echo $or;?>">
+    <section style="background-color:<?php echo $color;?>" class="flexible-inner-section bbh-inner-section header-section <?php echo $or;?>">
         <div class="content grid-container">
             <div class="row">
                 <div class="col-lg-6" id="h1_highlight">

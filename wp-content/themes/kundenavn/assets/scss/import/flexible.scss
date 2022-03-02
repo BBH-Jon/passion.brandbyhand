@@ -81,7 +81,7 @@ a[href^="http"]:empty::before {
 }
 .header-section{
 	.content{
-		padding: 100px 40px;
+		padding: 100px 40px 0 40px;
 		.row{
 			display: flex;
 			align-items: center;
@@ -114,6 +114,7 @@ a[href^="http"]:empty::before {
 		}
 	}
 	&.article{
+		padding: 0 40px 50px 40px;
 		.article-header-inner{
 			display: flex;
 			flex-direction: column;
@@ -135,7 +136,7 @@ a[href^="http"]:empty::before {
 }
 /*----------  3 col fingerprint cards  ----------*/
 .col3-fingerprint{
-	margin-top: -250px;
+	margin-top: -240px;
 	padding: 0px 40px 50px 40px;
 	.grid-inner-container{
 		display: grid;
@@ -216,10 +217,12 @@ a[href^="http"]:empty::before {
 				span{
 					font: normal normal normal 20px/30px Raleway;
 				}
-				i{
-					font-size: 1.5rem;
-					position: relative;
-    				top: 3px;
+				img{
+					width: 34px;
+				    height: 34px;
+				    top: 9px;
+				    position: relative;
+				    left: 30px;
 				}
 			}
 		}
@@ -230,16 +233,17 @@ a[href^="http"]:empty::before {
 
 
 .popular {
-	padding: 50px 0px;
+	padding: 50px 0px 100px 100px;
 	.grid-container-full{
-		max-width: 1600px;
 		margin-left: auto;
-		padding-left: 20px;
+		max-width: 1640px;
+		padding-left: 40px;
 		.popular-container{
-			box-sizing: content-box;
 			display: flex;
-			margin: 0 0 var(--gap);
-			position: relative;
+		    overflow-x: auto;
+		    padding: 10px 0;
+		    flex-wrap: nowrap;
+		    margin-left: auto;
 			.popular-card{
 			    margin-right: 2rem;
 			    display: flex;
@@ -267,7 +271,7 @@ a[href^="http"]:empty::before {
 			    display: flex;
 			    overflow-x: scroll;
 			    -webkit-overflow-scrolling: touch;
-				height: 450px;
+				height: 470px;
 				padding-top: 25px;
 				.mini-card{
 					box-shadow: 0px 3px 17px 0px rgb(0 0 0 / 40%);
@@ -364,6 +368,7 @@ a[href^="http"]:empty::before {
 
 /*----------  Article content ----------*/
 .article{
+	padding: 50px 40px;
 	.writer-info{
 		border-bottom:1px solid #535353;
 		display: flex;
@@ -449,7 +454,7 @@ a[href^="http"]:empty::before {
 			}
 			&:after{
 				font-family: 'icomoon' !important;
-				content:"\e915";
+				content:"\e91f";
 				color: #FFCD0B;
 				font-size: 2rem;
 				position: absolute;
@@ -462,6 +467,7 @@ a[href^="http"]:empty::before {
 /*---------- Contact cta ----------*/
 
 .contact-cta{
+	padding: 0 40px;
 	.container{
 		width: 100%;
 		height: 290px;
@@ -507,7 +513,7 @@ a[href^="http"]:empty::before {
 	max-width: 700px;
 	.checkboxes{
 		display: grid;
-		grid-template-rows: repeat(3, 1fr);
+		grid-template-rows: repeat(1, 1fr);
 		grid-template-columns: repeat(4, 1fr);
 		gap: 21px;
 		.checkbox{
@@ -547,6 +553,12 @@ a[href^="http"]:empty::before {
 	}
 }
 /*---------- Filter Card section ----------*/
+.cards{
+	padding: 50px 40px;
+}
+#filter{
+	padding: 50px 40px;
+}
 .mini-card-container{
 	display: grid;
 	grid-template-rows: repeat(1, 1fr);

@@ -1,11 +1,11 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?qe4ivk');
-  src:  url('fonts/icomoon.eot?qe4ivk#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.woff2?qe4ivk') format('woff2'),
-    url('fonts/icomoon.ttf?qe4ivk') format('truetype'),
-    url('fonts/icomoon.woff?qe4ivk') format('woff'),
-    url('fonts/icomoon.svg?qe4ivk#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?hm9hbx');
+  src:  url('fonts/icomoon.eot?hm9hbx#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.woff2?hm9hbx') format('woff2'),
+    url('fonts/icomoon.ttf?hm9hbx') format('truetype'),
+    url('fonts/icomoon.woff?hm9hbx') format('woff'),
+    url('fonts/icomoon.svg?hm9hbx#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -26,6 +26,35 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-citat1:before {
+  content: "\e91f";
+  color: #ffcd0b;
+}
+.icon-twitter:before {
+  content: "\e91a";
+}
+.icon-citat:before {
+  content: "\e91b";
+  color: #ffcd0b;
+}
+.icon-facebook:before {
+  content: "\e91c";
+}
+.icon-instagram:before {
+  content: "\e91d";
+}
+.icon-linkedin:before {
+  content: "\e91e";
+}
+.icon-pil-gul-rund .path1:before {
+  content: "\e918";
+  color: rgb(77, 89, 97);
+}
+.icon-pil-gul-rund .path2:before {
+  content: "\e919";
+  margin-left: -1em;
+  color: rgb(255, 205, 11);
+}
 .icon-Blues-BbH-Logo_aftryk:before {
   content: "\e917";
   color: #4c5c64;

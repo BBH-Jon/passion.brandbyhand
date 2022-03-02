@@ -15,10 +15,10 @@ $artcile = get_sub_field('artcile');
             </div>
             <div class="social-media">
                 <?php if($social_medie):?>
-                    <i class="icon-icon_linkedin"></i>
-                    <i class="icon-icon_facebook-square"></i>
-                    <i class="icon-icon_instagram"></i>
-                    <i class="icon-icon_facebook-square"></i>
+                    <i class="icon-linkedin"></i>
+                    <i class="icon-facebook"></i>
+                    <i class="icon-instagram"></i>
+                    <i class="icon-twitter"></i>
                 <?php endif;?>
                 <?php if($social_medie == 'linkedin'):?>
                     <i class="icon-icon_linkedin"></i>

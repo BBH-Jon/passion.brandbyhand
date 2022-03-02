@@ -11,10 +11,22 @@
             .inside-footer-widgets{
                 border-bottom: 2px solid #ffffff;
                 margin-left: 0;
+                display: flex;
+                
                 .footer-widget-1{
+                    width:40%;
                     aside{
                         margin-top: -35px;
                     }
+                }
+                .footer-widget-2 {
+                    width:20%;
+                }
+                .footer-widget-3 {
+                    width:20%;
+                }
+                .footer-widget-4 {
+                    width:20%;
                 }
                 .widget-title{
                     margin-bottom: 15px;
