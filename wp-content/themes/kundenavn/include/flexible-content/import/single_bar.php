@@ -9,7 +9,7 @@
                     <h3>Modtag tips og tricks direkte i din indbakke</h3>
                 </div>
                 <div class="col-md-4 download">
-                    <span>Download nu   <img src="http://passionbrandbyhand.local/wp-content/uploads/2022/03/MicrosoftTeams-image-2.png" alt=""> </span>
+                    <span>Download nu   <img src="/wp-content/uploads/2022/03/MicrosoftTeams-image-2.png" alt=""> </span>
                 </div>
             </div>
         </div>

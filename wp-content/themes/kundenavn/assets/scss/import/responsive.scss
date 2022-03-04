@@ -733,31 +733,34 @@
     .single-bar .bar-container .row .download img{
         left:10px;
     }
-    .popular .grid-container-full .popular-container{
-        flex-wrap: wrap;
-        .popular-card{
-            width: 100%;
-            height: fit-content;
-            justify-content: center;
-            align-items: center;
-            margin-top: 0;
-            margin-right: 0;
-            margin-bottom: 20px;
-            h2{
-                margin-bottom: 0;
+    .popular .grid-container-full {
+        padding-left: 0;
+        .popular-container{
+            flex-wrap: wrap;
+            .popular-card{
+                width: 100%;
+                height: fit-content;
+                justify-content: center;
+                align-items: center;
+                margin-top: 0;
+                margin-right: 0;
+                margin-bottom: 20px;
+                h2{
+                    margin-bottom: 0;
+                }
             }
-        }
-        .popular-inner-container{
-            .mini-card{
-                height: 380px;
-                .mini-card-inner{
-                    .author-row{
-                        bottom:20px;
+            .popular-inner-container{
+                .mini-card{
+                    height: 380px;
+                    .mini-card-inner{
+                        .author-row{
+                            bottom:20px;
+                        }
                     }
                 }
             }
-        }
 
+        }
     }
     #filter{
         padding: 25px;

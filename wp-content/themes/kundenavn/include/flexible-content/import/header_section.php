@@ -69,9 +69,8 @@ $img_mid = get_sub_field('img_mid');
 <script>
 var h1 = $('#h1_highlight h1');
 var str = '<?php echo $highligted_ord;?>';
-h1.html(h1.text().replace(str, '<span class="highlight">'+str+'</span>'));
+h1.html(h1.text().replace(str, '<span class="highlight"> '+str+' </span>'));
 </script>
-
 <style media="screen">
     .main-navigation{
         background-color: <?php echo $color;?>

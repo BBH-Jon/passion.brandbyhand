@@ -86,7 +86,14 @@ a[href^="http"]:empty::before {
 			display: flex;
 			align-items: center;
 			.highlight {
-			  background: #ffcd0b;
+				width: 100%;
+				position: relative;
+				background-image: url('/wp-content/uploads/2022/03/output-onlinepngtools.png');
+				background-repeat: no-repeat;
+				background-size: contain;
+				background-position: 0px 26px;
+				background-size: 9vw 5vh;
+				overflow: visible;
 			}
 			img{
 				width: 581px;
