@@ -72,7 +72,7 @@ var str = '<?php echo $highligted_ord;?>';
 h1.html(h1.text().replace(str, '<span class="highlight"> '+str+' </span>'));
 </script>
 <style media="screen">
-    .main-navigation{
+    /* .main-navigation{
         background-color: <?php echo $color;?>
-    }
+    } */
 </style>

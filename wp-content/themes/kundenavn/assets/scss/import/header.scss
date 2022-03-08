@@ -1,7 +1,10 @@
 
 .main-navigation{
     height: 100px;
-    padding-top: 22px;
+    //padding-top: 22px;
+    position: fixed;
+    width: 100%;
+    box-shadow: 0 10px 40px 0 rgb(44 53 81 / 7%);
     .navigation-branding{
         img{
             width: 210px;
