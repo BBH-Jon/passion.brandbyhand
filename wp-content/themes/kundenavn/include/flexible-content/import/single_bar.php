@@ -1,17 +1,15 @@
 <section class="flexible-inner-section bbh-inner-section single-bar">
     <div class="content grid-container">
         <div class="bar-container">
-            <div class="row">
-                <div class="col-md-1 fingerprint-icon">
-                    <i class="icon-Blues-BbH-Logo_aftryk"></i>
+                <div class="item-1">
+                    <h4 class="bold">E-bog med SEO guidelines 2022</h4>
                 </div>
-                <div class="col-md-7 text">
-                    <h3>Modtag tips og tricks direkte i din indbakke</h3>
+                <div class="item-2">
+                    <h4>Udkommer næste måned - få den allerede nu</h4>
                 </div>
-                <div class="col-md-4 download">
-                    <span>Download nu   <img src="/wp-content/uploads/2022/03/MicrosoftTeams-image-2.png" alt=""> </span>
+                <div class="item-3">
+                    <h4 class="bold">Hen det lige nu <i class="icon-pil-cirkel"></i> </h4>
                 </div>
-            </div>
         </div>
     </div>
 </section>

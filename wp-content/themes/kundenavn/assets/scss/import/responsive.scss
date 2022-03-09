@@ -16,12 +16,12 @@
 // 	h1{
 // 		font-size: 2.5rem;
 // 		font-weight: 700;
-// 		font-family: Kadwa;
+// 		font-family: Raleway;
 // 	}
 // 	h2{
 // 		font-size: 1.75rem;
 // 		font-weight: 700;
-// 		font-family: Kadwa;
+// 		font-family: Raleway;
 // 	}
 // 	h3{
 // 		font-size: 1.3rem;
@@ -38,31 +38,31 @@
 /*-Desktop (Laptop) 1375px-*/
 @media screen and (max-width: 1375px) {
 
-    h1{
-		font-size: 2.5rem;
-		font-weight: 700;
-		font-family: Kadwa;
-	}
-	h2{
-		font-size: 1.75rem;
-		font-weight: 700;
-		font-family: Kadwa;
-	}
-	h3{
-		font-size: 1.3rem;
-		font-weight: 700;
-		font-family: Raleway;
-	}
-	h4{
-		font-size: 1.25rem;
-		font-weight: 700;
-		font-family: Raleway;
-	}
-    p{
-        font-size: 1rem;
-		font-weight: 500;
-		font-family: Raleway;
-    }
+    // h1{
+	// 	font-size: 2.5rem;
+	// 	font-weight: 700;
+	// 	font-family: Raleway;
+	// }
+	// h2{
+	// 	font-size: 1.75rem;
+	// 	font-weight: 700;
+	// 	font-family: Raleway;
+	// }
+	// h3{
+	// 	font-size: 1.3rem;
+	// 	font-weight: 700;
+	// 	font-family: Raleway;
+	// }
+	// h4{
+	// 	font-size: 1.25rem;
+	// 	font-weight: 700;
+	// 	font-family: Raleway;
+	// }
+    // p{
+    //     font-size: 1rem;
+	// 	font-weight: 500;
+	// 	font-family: Raleway;
+    // }
     body .grid-container{
         max-width: 1110px;
         padding: 0;
@@ -81,12 +81,6 @@
     		.row{
     			display: flex;
     			align-items: center;
-    			.highlight {
-    			  background: #ffcd0b;
-    			}
-    			img{
-    				object-fit: cover;
-    			}
     		}
     	}
         &.img_left{
@@ -95,9 +89,6 @@
         		.row{
         			display: flex;
         			align-items: center;
-        			.highlight {
-        			  background: #ffcd0b;
-        			}
         			img{
         				object-fit: cover;
                         width: 560px;
@@ -295,9 +286,6 @@
     		.row{
     			display: flex;
     			align-items: center;
-    			.highlight {
-    			  background: #ffcd0b;
-    			}
     			img{
     				object-fit: cover;
     			}
@@ -309,9 +297,6 @@
         		.row{
         			display: flex;
         			align-items: center;
-        			.highlight {
-        			  background: #ffcd0b;
-        			}
         			img{
         				object-fit: cover;
                         width: 100%;
@@ -326,9 +311,6 @@
         		.row{
         			display: flex;
         			align-items: center;
-        			.highlight {
-        			  background: #ffcd0b;
-        			}
         			img{
         				object-fit: cover;
                         width: 100%;
@@ -374,9 +356,6 @@
         .content{
             .row{
                 flex-wrap: nowrap;
-                .highlight {
-                  background: #ffcd0b;
-                }
                 img{
                     width: 100%;
                     height: auto;
@@ -478,7 +457,7 @@
 /*-Tablet (Orientation: portrait) 768px-*/
 @media screen and (max-width: 768px) {
     :root {
-      font-size: calc(0.7vw + 0.7vh + 0.5vmin);
+      font-size: calc(0.7vw + 0.7vh + .5vmin);
     }
     .home .header-section {
         height: 450px;
@@ -488,9 +467,6 @@
             .row{
                 display: flex;
                 align-items: center;
-                .highlight {
-                  background: #ffcd0b;
-                }
                 img{
                     object-fit: cover;
                 }
@@ -502,9 +478,6 @@
                 .row{
                     display: flex;
                     align-items: center;
-                    .highlight {
-                      background: #ffcd0b;
-                    }
                     img{
                         object-fit: cover;
                         width: 100%;
@@ -611,12 +584,12 @@
     // h1{
     //     font-size: 2.5rem;
     //     font-weight: 700;
-    //     font-family: Kadwa;
+    //     font-family: Raleway;
     // }
     // h2{
     //     font-size: 1.75rem;
     //     font-weight: 700;
-    //     font-family: Kadwa;
+    //     font-family: Raleway;
     // }
     // h3{
     //     font-size: 1.3rem;
@@ -649,9 +622,6 @@
             .row{
                 display: flex;
                 align-items: center;
-                .highlight {
-                  background: #ffcd0b;
-                }
                 img{
                     object-fit: cover;
                 }

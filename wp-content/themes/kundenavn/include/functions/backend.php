@@ -80,3 +80,21 @@ function my_acf_collor_pallete_css() {
 }
 
 add_action('acf/input/admin_head', 'my_acf_collor_pallete_css');
+
+
+add_action('wp_footer', 'bbh_video_popup_modal', 99);
+function bbh_video_popup_modal(){
+    ?>
+    <div id="video-lightbox">
+        <div class="inner">
+            <div id="close-btn" class="close-button">
+                <i class="fa fa-times" aria-hidden="true"></i>
+            </div>
+            <div class="embed-responsive embed-responsive-16by9">
+                <iframe src="" frameborder="0" allowfullscreen webkitallowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+    <div id="video-overlay"></div>
+    <?php
+}

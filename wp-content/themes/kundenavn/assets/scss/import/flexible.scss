@@ -16,17 +16,20 @@ body {
 *::after {
   	box-sizing: inherit;
 }
+.home h1{
+	font-size: 75px;
+}
 h1{
 	font-size: 3rem;
-	font-weight: 700;
-	font-family: Kadwa;
+	font-weight: 900;
+	font-family: Raleway;
 	text-decoration: none;
 	color:#000000;
 }
 h2{
 	font-size: 2.25rem;
 	font-weight: 700;
-	font-family: Kadwa;
+	font-family: Raleway;
 	text-decoration: none;
 	color:#000000;
 }
@@ -72,16 +75,12 @@ a[href^="http"]:empty::before {
 }
 
 /*----------  Header section  ----------*/
-.home{
-	.header-section{
-		height: 900px;
-		.content{
-		}
-	}
-}
+
 .header-section{
+	margin-top: 80px;
+	height: fit-content;
 	.content{
-		padding: 100px 40px 0 40px;
+		padding: 0px 40px 25px 40px;
 		.row{
 			display: flex;
 			align-items: center;
@@ -106,7 +105,7 @@ a[href^="http"]:empty::before {
 		.content{
 			.row{
 				img{
-					box-shadow: 0px 3px 60px 0px rgb(0 0 0 / 40%);
+					box-shadow:0px 5px 15px -5px rgb(0 0 0 / 20%);
 				}
 			}
 		}
@@ -115,7 +114,7 @@ a[href^="http"]:empty::before {
 		.content{
 			.row{
 				img{
-					box-shadow: 0px 3px 60px 0px rgb(0 0 0 / 40%);
+					box-shadow: 0px 5px 15px -5px rgb(0 0 0 / 20%);
 				}
 			}
 		}
@@ -132,7 +131,7 @@ a[href^="http"]:empty::before {
 			.hero-img{
 				margin-top: 20px;
 				img{
-					box-shadow: 0px 3px 60px 0px rgb(0 0 0 / 40%);
+					box-shadow: 0px 5px 15px -5px rgb(0 0 0 / 20%);
 					border-radius: 10px;
 					width: 1120px;
 					height: 609px;
@@ -140,52 +139,56 @@ a[href^="http"]:empty::before {
 			}
 		}
 	}
+	&.front_page{
+		.btn-group{
+			display: flex;
+			align-items: center;
+			column-gap: 40px;
+			.video-trigger{
+				cursor: pointer;
+				span{
+					font-size: 1rem;
+					font-weight: 700;
+					font-family: Raleway;
+					color: #FFCD0B;
+					position: relative;
+					top: -6px;
+				}
+				i{
+					margin-left: 15px;
+					font-size: 2rem;
+					position: relative;
+					top:2px;
+				}
+			}
+		}
+	}
 }
 /*----------  3 col fingerprint cards  ----------*/
 .col3-fingerprint{
-	margin-top: -240px;
-	padding: 0px 40px 50px 40px;
+	padding: 50px 40px 50px 40px;
 	.grid-inner-container{
 		display: grid;
 		grid-template-rows: 1fr;
 		grid-template-columns: repeat(3, 1fr);
 		gap: 30px 37px;
 		.card-container{
-			&:nth-child(1){
-				i{
-					&:before{
-						color:#72808a59;
-					}
-				}
-			}
-			&:nth-child(2){
-				i{
-					&:before{
-						color:#BAA995;
-					}
-				}
-			}
-			&:nth-child(3){
-				i{
-					&:before{
-						color:#ffcd0b;
-					}
-				}
-			}
 			.card{
 				width: 400px;
 				height: 420px;
 				display: flex;
 				flex-direction: column;
-				box-shadow: 0px 3px 60px 0px rgb(0 0 0 / 40%);
+				box-shadow: 0px 5px 15px -5px rgb(0 0 0 / 20%);
 				border-radius: 10px;
 				background: #FFFFFF 0% 0% no-repeat padding-box;
 				justify-content: center;
 				text-align: center;
 				padding: 40px 50px;
 				img{
-					width: 108px;
-					height: 116px;
+					width: 110px;
+					height: auto;
+					max-height: 150px;
+					object-fit: contain;
 				}
 				i{
 					font-size: 8rem;
@@ -198,39 +201,39 @@ a[href^="http"]:empty::before {
 	}
 }
 /*----------  Single bar  ----------*/
+.home .single-bar{
+	padding: 0 40px;
+	position: relative;
+	top:-50px;
+
+}
 .single-bar{
 	.bar-container{
 		height: 80px;
 		width: 100%;
-		box-shadow: 0px 3px 45px 0px rgb(0 0 0 / 40%);
-		border-radius: 9px;
-		align-items: center;
-		padding: 0 60px;
-		.row{
-			align-items: center;
-			height: 100%;
-			.fingerprint-icon{
-				i{
-					font-size: 3rem;
-				}
+		box-shadow: 0px 5px 15px -5px rgb(0 0 0 / 20%);
+		display: flex;
+		padding: 0 40px;
+		place-items: center center;
+		width: 100%;
+		background-color: #ffffff;
+		.item-1{
+			width: 30%;
+		}
+		.item-2{
+			width: 50%;
+		}
+		.item-3{
+			width: 20%;
+		}
+		div{
+			h4{
+				font-weight: 500;
+				color:#687984;
+			    margin-bottom: 0px;
 			}
-			.text{
-				h3{
-					margin-bottom: 0;
-				}
-			}
-			.download{
-				text-align: center;
-				span{
-					font: normal normal normal 20px/30px Raleway;
-				}
-				img{
-					width: 34px;
-				    height: 34px;
-				    top: 9px;
-				    position: relative;
-				    left: 30px;
-				}
+			.bold{
+				font-weight: 700;
 			}
 		}
 	}
@@ -281,7 +284,7 @@ a[href^="http"]:empty::before {
 				height: 470px;
 				padding-top: 25px;
 				.mini-card{
-					box-shadow: 0px 3px 17px 0px rgb(0 0 0 / 40%);
+					box-shadow: 0px 5px 15px -5px rgb(0 0 0 / 20%);
 					border-radius: 8px;
 					display: flex;
 					flex-direction: column;
@@ -298,7 +301,7 @@ a[href^="http"]:empty::before {
 						border-top-left-radius: 8px;
 						border-top-right-radius: 8px;
 						width: 100%;
-						height: 149px;
+						height: 170px;
 						margin-bottom: -7px;
 					}
 					.mini-card-inner{
@@ -320,7 +323,7 @@ a[href^="http"]:empty::before {
 						.reading-time{
 							font: normal normal 600 13px/50px Raleway;
 							letter-spacing: 0.91px;
-							margin-top: -5px;
+							margin-top: -10px;
 						}
 						.author-row{
 							margin-block-start: auto;
@@ -330,7 +333,7 @@ a[href^="http"]:empty::before {
 							color: #565656;
 							line-height: 1.3;
 							position: absolute;
-							bottom:40px;
+							bottom:25px;
 							img{
 								width: 31px;
 								height: 31px;
@@ -478,7 +481,7 @@ a[href^="http"]:empty::before {
 	.container{
 		width: 100%;
 		height: 290px;
-		box-shadow: 0px 3px 60px 0px rgb(0 0 0 / 40%);
+		box-shadow: 0px 5px 15px -5px rgb(0 0 0 / 20%);
 		border-radius: 2px;
 		background: rgb(255, 206, 10, 15%);
 		position: relative;
@@ -499,7 +502,7 @@ a[href^="http"]:empty::before {
 			box-sizing:border-box;
 			padding: 1.5em;
 			h2{
-				font: normal normal bold 2.18rem/40px Kadwa;
+				font: normal normal bold 2.18rem/40px Raleway;
 				letter-spacing: 0px;
 				color: #000000;
 				margin-bottom: 0px;
@@ -529,7 +532,7 @@ a[href^="http"]:empty::before {
 				height: 52px;
 				background: #FFFFFF 0% 0% no-repeat padding-box;
 				border-radius: 15px;
-				box-shadow: 0px 3px 20px 0px rgb(0 0 0 / 40%);
+				box-shadow: 0px 5px 15px -5px rgb(0 0 0 / 20%);
 				color:white;
 			  	display: flex;
 			  	align-items: center;
@@ -542,7 +545,7 @@ a[href^="http"]:empty::before {
 			}
 			input:checked ~ label {
 				background: #4D5961 0% 0% no-repeat padding-box;
-				box-shadow: 0px 3px 20px 0px rgb(0 0 0 / 40%);
+				box-shadow: 0px 5px 15px -5px rgb(0 0 0 / 20%);
 				border-radius: 15px;
 				color: #FFFFFF;
 			}
@@ -572,7 +575,7 @@ a[href^="http"]:empty::before {
 	grid-template-columns: repeat(3, 1fr);
 	gap: 101px 25px;
 	.mini-card{
-		box-shadow: 0px 3px 30px 0px rgb(0 0 0 / 40%);
+		box-shadow: 0px 5px 15px -5px rgb(0 0 0 / 20%);
 		border-radius: 8px;
 		display: flex;
 		flex-direction: column;
@@ -646,7 +649,7 @@ a[href^="http"]:empty::before {
 		grid-template-columns: repeat(3, 1fr);
 		gap: 0px 25px;
 		.mini-card{
-			box-shadow: 0px 3px 30px 0px rgb(0 0 0 / 40%);
+			box-shadow:0px 5px 15px -5px rgb(0 0 0 / 20%);
 			border-radius: 8px;
 			display: flex;
 			flex-direction: column;
@@ -711,4 +714,62 @@ a[href^="http"]:empty::before {
 			}
 		}
 	}
+}
+
+
+
+#video-lightbox{
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 100%;
+    max-width: 710px;
+    z-index: 5001;
+    -webkit-box-shadow: 0px 0px 80px -10px rgba(0,0,0, 0.8);
+    box-shadow: 0px 0px 80px -10px rgba(0,0,0, 0.8);
+
+    .close-button{
+        position: absolute;
+        z-index: 999999;
+        color: white;
+        font-size: 20px;
+        right: -10px;
+        top: -40px;
+        padding: 5px 13px;
+        text-shadow: 0px 0px 20px rgba(0,0,0, 0.8);
+        cursor: pointer;
+        -webkit-tap-highlight-color: transparent;
+    }
+    .embed-responsive{
+        position: relative;
+        display: flex;
+        width: 100%;
+        padding: 0;
+        overflow: hidden;
+		justify-content: center;
+		iframe{
+			max-width: 100%;
+		    width: 710px;
+		    height: 400px;
+		}
+        &.embed-responsive-16by9:before{
+            padding-top: 56.25%;
+        }
+        &.embed-responsive-4by3::before {
+            padding-top: 75%;
+        }
+    }
+}
+#video-overlay{
+    display: none;
+    background-color: rgba(0,0,0, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 5000;
 }

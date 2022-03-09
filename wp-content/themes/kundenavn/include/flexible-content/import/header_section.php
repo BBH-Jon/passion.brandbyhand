@@ -9,6 +9,8 @@ $img_left = get_sub_field('img_left');
 $highligted_ord = get_sub_field('highligted_ord');
 $headline_mid = get_sub_field('headline_mid');
 $img_mid = get_sub_field('img_mid');
+$video = get_sub_field( 'video' );
+$btn = get_sub_field('btn');
 
 ?>
 
@@ -44,6 +46,27 @@ $img_mid = get_sub_field('img_mid');
             <div class="row">
                 <div class="col-lg-6" id="h1_highlight">
                     <?php echo $headline_left;?>
+                    <div class="btn-group">
+                        <a class="btn primary-button" target="<?php echo $btn['target']; ?>" href="<?php echo $btn['url']; ?>"><?php echo $btn['title']; ?>
+                        </a>
+                        <?php
+
+                        // use preg_match to find iframe src
+                        preg_match('/src="(.+?)"/', $video, $matches);
+                        $src = $matches[1];
+
+                        // add extra params to iframe src
+                        $src = add_query_arg(
+                            array(
+                            'rel' => 0,
+                            'showinfo' => 0,
+                            'autoplay' => 1,
+                            ), $src
+                        );
+                        ?>
+
+                        <div class="video-trigger" data-video-src="<?php echo $src; ?>"><span> Se video  </span><i class="icon-play"></i></div>
+                    </div>
                 </div>
                 <div class="col-lg-6">
                     <img class="lazyload" src="<?php echo $img_right['url']; ?>" alt="">

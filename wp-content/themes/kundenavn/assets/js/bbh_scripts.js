@@ -49,5 +49,52 @@
       $(this).siblings('input').click()
       $(this).parent().siblings().children('input').attr('checked',false)
     })
+
+
+    /*-------------- C1 - VIDEO -------------*/
+    function openVideoPopup(e){
+        e.preventDefault()
+
+        var trigger = $(this),
+        src         = trigger.attr('data-video-src'),
+        lightbox    = $('#video-lightbox'),
+        iframe      = lightbox.find('iframe'),
+        overlay     = $('#video-overlay');
+
+        if(src.length < 1){
+            return
+        }
+
+        iframe.attr('src', src)
+        lightbox.fadeIn('400')
+        overlay.fadeIn('400')
+    }
+
+    function closeVideoPopup(){
+        var lightbox = $('#video-lightbox'),
+        iframe       = lightbox.find('iframe'),
+        overlay      = $('#video-overlay')
+
+        lightbox.fadeOut('400', function(){
+            iframe.attr('src', '')
+        })
+        overlay.fadeOut('400')
+    }
+
+    $(document).ready(function(){
+      // open on trigger click
+        $('.video-trigger').on('click', openVideoPopup);
+        $('.fp-banner .link a[data-video-src]').on('click', openVideoPopup);
+        // mandatory close triggers.
+        $('#video-lightbox .close-button').on('click', closeVideoPopup);
+        $('#video-overlay').on('click', closeVideoPopup);
+
+        // close video on esc key
+        $(document).on('keydown', function(e){
+        if(e.which == 27 ){
+            closeVideoPopup()
+        }
+        })
+    })
 })( jQuery )
 lazySizes.init(); //fallback if img is above-the-fold

@@ -861,7 +861,7 @@
                             "choices": {
                                 "img_right": "Billede på højre side",
                                 "img_left": "Billede på venstre side",
-                                "front_page": "Forside",
+                                "front_page": "Forside - Lottiefiles",
                                 "article": "Artikel"
                             },
                             "allow_null": 0,
@@ -918,6 +918,13 @@
                                         "operator": "==",
                                         "value": "img_right"
                                     }
+                                ],
+                                [
+                                    {
+                                        "field": "field_620b79c370f99",
+                                        "operator": "==",
+                                        "value": "front_page"
+                                    }
                                 ]
                             ],
                             "wrapper": {
@@ -944,6 +951,13 @@
                                         "field": "field_620b79c370f99",
                                         "operator": "==",
                                         "value": "img_right"
+                                    }
+                                ],
+                                [
+                                    {
+                                        "field": "field_620b79c370f99",
+                                        "operator": "==",
+                                        "value": "front_page"
                                     }
                                 ]
                             ],
@@ -1099,6 +1113,53 @@
                             "prepend": "",
                             "append": "",
                             "maxlength": ""
+                        },
+                        {
+                            "key": "field_6228854d155fc",
+                            "label": "Knap",
+                            "name": "btn",
+                            "type": "link",
+                            "instructions": "Skal kun udfyldes hvis der er en video. \r\nEllers, skal du bruge knappen i wysiwyg",
+                            "required": 0,
+                            "conditional_logic": [
+                                [
+                                    {
+                                        "field": "field_620b79c370f99",
+                                        "operator": "==",
+                                        "value": "front_page"
+                                    }
+                                ]
+                            ],
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "return_format": "array"
+                        },
+                        {
+                            "key": "field_622868fb46ac2",
+                            "label": "Video",
+                            "name": "video",
+                            "type": "oembed",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": [
+                                [
+                                    {
+                                        "field": "field_620b79c370f99",
+                                        "operator": "==",
+                                        "value": "front_page"
+                                    }
+                                ]
+                            ],
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "width": 800,
+                            "height": 400
                         }
                     ],
                     "min": "",
@@ -1159,6 +1220,30 @@
                                         "id": ""
                                     },
                                     "return_format": "array"
+                                },
+                                {
+                                    "key": "field_62285f61bfd34",
+                                    "label": "Billede",
+                                    "name": "img",
+                                    "type": "image",
+                                    "instructions": "",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "return_format": "array",
+                                    "preview_size": "medium",
+                                    "library": "all",
+                                    "min_width": "",
+                                    "min_height": "",
+                                    "min_size": "",
+                                    "max_width": "",
+                                    "max_height": "",
+                                    "max_size": "",
+                                    "mime_types": ""
                                 },
                                 {
                                     "key": "field_6214bc47d9aa3",
@@ -1746,5 +1831,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1646043560
+    "modified": 1646830521
 }

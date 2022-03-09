@@ -13,7 +13,7 @@
                     ?>
                     <a class="card-container"target="<?php echo $link['target'] ?>" href="<?php echo $link['url'] ?>">
                         <div class="card">
-                            <i class="icon-Blues-BbH-Logo_aftryk"></i>
+                            <img src="<?php echo esc_url($img['url']); ?>" alt="<?php echo esc_attr($img['alt']); ?>" />
                             <h3><?php echo $headline;?></h3>
                             <div class="text">
                                 <?php echo $text;?>
