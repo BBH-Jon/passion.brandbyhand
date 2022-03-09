@@ -17,7 +17,7 @@
                     $reading_time = get_field( 'reading_time', $popular_posts->ID );
                     ?>
                     <a class="mini-card" href="<?php echo $permalink?>">
-                        <img src="<?php echo esc_url($img['url']); ?>" alt="<?php echo esc_attr($img['alt']); ?>" />
+                        <img class="big-img" src="<?php echo esc_url($img['url']); ?>" alt="<?php echo esc_attr($img['alt']); ?>" />
                         <div class="mini-card-inner">
                             <span>- Artikler</span>
                             <h4><?php echo $title;?></h4>

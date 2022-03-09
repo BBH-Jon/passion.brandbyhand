@@ -80,7 +80,7 @@ a[href^="http"]:empty::before {
 	margin-top: 80px;
 	height: fit-content;
 	.content{
-		padding: 0px 40px 25px 40px;
+		padding: 0px 40px 50px 40px;
 		.row{
 			display: flex;
 			align-items: center;
@@ -185,10 +185,10 @@ a[href^="http"]:empty::before {
 				text-align: center;
 				padding: 40px 50px;
 				img{
-					width: 110px;
-					height: auto;
+					width: 100%;
+					/* height: 150px; */
 					max-height: 150px;
-					object-fit: contain;
+					object-fit: cover;
 				}
 				i{
 					font-size: 8rem;
@@ -297,11 +297,12 @@ a[href^="http"]:empty::before {
 					&:hover{
 						transform: scale(1.1);
 					}
-					img{
+					.big-img{
 						border-top-left-radius: 8px;
 						border-top-right-radius: 8px;
 						width: 100%;
-						height: 170px;
+						min-height: 170px;
+						max-height: 170px;
 						margin-bottom: -7px;
 					}
 					.mini-card-inner{
@@ -773,3 +774,36 @@ a[href^="http"]:empty::before {
     right: 0;
     z-index: 5000;
 }
+
+
+
+
+
+
+
+
+
+/* mikkels css*/
+// .col3-fingerprint .grid-inner-container .card-container .card, .popular .grid-container-full .popular-container .popular-inner-container .mini-card, .single-bar .bar-container {
+// 	box-shadow: 0px 5px 15px -5px rgb(0 0 0 / 20%);
+// }
+// .header-section.img_right .content .row img {
+// 	box-shadow: none;
+// }
+// nav#site-navigation {
+//     box-shadow: 0 5px 10px 0 rgb(44 53 81 / 10%), 0 10px 40px 0 rgb(44 53 81 / 7%);
+// }
+// .main-navigation .main-nav ul li a {
+//     font: normal normal 600 1rem/24px Raleway;
+//     color: #242424;
+// }
+// .main-navigation .primary-button {
+//     margin-left: 20px;
+// }
+// body.home h1 {
+//     font-size: 75px;
+// 	    font-family: 'Raleway';
+// }
+// .header-section .content {
+//     padding: 0px 40px 0 40px;
+// }
