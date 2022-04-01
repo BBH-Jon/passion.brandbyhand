@@ -95,6 +95,14 @@
             closeVideoPopup()
         }
         })
+
+
+        $('.primary-button').wrapInner('<span></span>')
     })
+
+
+
+
+
 })( jQuery )
 lazySizes.init(); //fallback if img is above-the-fold

@@ -37,6 +37,9 @@
 
 /*-Desktop (Laptop) 1375px-*/
 @media screen and (max-width: 1375px) {
+    .home h1{
+        font-size: 3rem;
+    }
 
     // h1{
 	// 	font-size: 2.5rem;
@@ -69,13 +72,7 @@
         // border:1px solid red;
     }
     /*----------  Header section  ----------*/
-    .home{
-    	.header-section{
-    		height: 667px;
-    		.content{
-    		}
-    	}
-    }
+
     .header-section{
     	.content{
     		.row{
@@ -133,7 +130,6 @@
     }
     /*----------  3 col fingerprint cards  ----------*/
     .col3-fingerprint{
-        margin-top: -100px;
         .grid-inner-container{
             gap: 30px 42px;
             .card-container{
@@ -230,9 +226,7 @@
 
 /*-Desktop (Macbook) 1200px-*/
 @media screen and (max-width: 1200px) {
-    .col3-fingerprint {
-        margin-top: -70px;
-    }
+
     .popular .grid-container-full {
         padding-left: 0px;
         max-width: 1280px;
@@ -247,10 +241,30 @@
             gap: 50px 15px;
         }
     }
+    .home .single-bar{
+        .bar-container{
+            flex-direction: column;
+            height: fit-content;
+            padding: 10px 40px;
+            text-align: center;
+            .item-1{
+                width: 100%;
+            }
+            .item-2{
+                width: 100%;
+            }
+            .item-3{
+                width:100%;
+            }
+        }
+    }
 } //1200 end
 
 /*-Desktop (Macbook) 1050px-*/
 @media screen and (max-width: 1050px) {
+    .home .single-bar{
+        margin-top: -50px;
+    }
     .flexible-inner-section{
         padding: 50px 25px;
     }
@@ -346,9 +360,6 @@
 
 /*-Tablet (Orientation: landscape) 992-*/
 @media screen and (max-width: 992px) {
-    .home .header-section {
-        height:550px;
-    }
     .home .header-section.img_right .content{
         padding: 75px 0px 0px 0px;
     }
@@ -369,7 +380,6 @@
         }
     }
     .col3-fingerprint{
-    	margin-top:0;
     	padding: 30px 25px 50px 25px;
     	.grid-inner-container{
     		display: grid;
@@ -459,9 +469,6 @@
     :root {
       font-size: calc(0.7vw + 0.7vh + .5vmin);
     }
-    .home .header-section {
-        height: 450px;
-    }
     .header-section{
         .content{
             .row{
@@ -520,6 +527,16 @@
                 }
             }
         }
+        &.front_page{
+            .btn-group{
+                flex-direction: column;
+                float: left;
+                row-gap:15px;
+                .video-trigger{
+                    margin-left: -25px;
+                }
+            }
+        }
     }
     .site-footer .footer-widgets .footer-widgets-container .inside-footer-widgets{
         flex-wrap: wrap;
@@ -541,7 +558,7 @@
     }
     body .single-bar{
         .grid-container{
-            padding: 0;
+
         }
     }
     .single-bar{
@@ -606,11 +623,23 @@
     //     font-weight: 500;
     //     font-family: Raleway;
     // }
+    .home{
+        .single-bar{
+            .grid-container{
+                padding: 50px 0 0px 0;
+            }
+        }
+    }
+    .btn.primary-button span{
+        padding: 3px 46px 3px 20px;
+    }
+    .btn.primary-button:before{
+        width: 28px;
+    }
     .flexible-inner-section{
         padding: 25px 25px!important;
     }
     .home .header-section {
-        height: 308px;
         padding: 0 25px;
     }
     .home .header-section.img_right .content{
@@ -686,6 +715,11 @@
                 }
             }
         }
+        &.front_page{
+            .content{
+                padding: 20px 25px 50px 25px;
+            }
+        }
     }
     .col3-fingerprint{
         .grid-inner-container{
@@ -753,21 +787,27 @@
            padding: 42px 25px 15px 25px;
            .footer-widgets-container{
                .inside-footer-widgets{
-                   flex-wrap: wrap;
+                   flex-direction: column;
+                   align-items: center;
+                    justify-content: center;
+                    text-align: center;
+                    .widget-title{
+                        margin-bottom: 1px;
+                    }
                    .footer-widget-1{
                        width:100%;
                        aside{
-                           margin-top: -35px;
+                           margin-top: 0;
                        }
                    }
                    .footer-widget-2 {
-                       width:50%;
+                       width:100%;
                    }
                    .footer-widget-3 {
-                       width:50%;
+                       width:100%;
                    }
                    .footer-widget-4 {
-                       width:50%;
+                       width:100%;
                    }
                }
            }

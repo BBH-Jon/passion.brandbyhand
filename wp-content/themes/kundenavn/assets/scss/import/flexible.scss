@@ -125,6 +125,7 @@ a[href^="http"]:empty::before {
 			display: flex;
 			flex-direction: column;
 			justify-content: center;
+			padding-top: 50px;
 			.headline{
 				text-align: center;
 			}
@@ -133,8 +134,9 @@ a[href^="http"]:empty::before {
 				img{
 					box-shadow: 0px 5px 15px -5px rgb(0 0 0 / 20%);
 					border-radius: 10px;
-					width: 1120px;
-					height: 609px;
+					width: 100%;
+				    height: auto;
+				    max-height: 650px;
 				}
 			}
 		}
@@ -194,7 +196,7 @@ a[href^="http"]:empty::before {
 					font-size: 8rem;
 				}
 				h3{
-					margin-top: 5px;
+					margin-top: 10px;
 				}
 			}
 		}
@@ -225,6 +227,18 @@ a[href^="http"]:empty::before {
 		}
 		.item-3{
 			width: 20%;
+			.link{
+				font-weight: 700;
+				color:#687984;
+			    margin-bottom: 0px;
+				font-size: 1.25rem;
+				i{
+					position: relative;
+					left:5px;
+					top:4px;
+					font-size: 1.6rem;
+				}
+			}
 		}
 		div{
 			h4{
@@ -410,7 +424,8 @@ a[href^="http"]:empty::before {
 			display: grid;
 			grid-template-rows: 1fr;
 			grid-template-columns: repeat(4, 1fr);
-			gap: 8px 10px;
+			gap: 0px 0px;
+			margin-top: 14px;
 			i{
 				font-size:2rem;
 				line-height: 2;
@@ -718,7 +733,7 @@ a[href^="http"]:empty::before {
 }
 
 
-
+/* Vide lightbox css */
 #video-lightbox{
     display: none;
     position: fixed;
@@ -776,10 +791,67 @@ a[href^="http"]:empty::before {
 }
 
 
+/* socail media share style*/
+
+/*************************
+
+Styles for the buttons.
+@Vivek Kumar Poddar
+http://wpvkp.com
+
+*************************/
 
 
 
 
+
+
+
+
+
+
+/*.s-buffer {
+	background: #ced7df;
+}
+.s-buffer::before {
+    font-family: fontawesome;
+    content: '\e804';
+}
+a.col-2.sbtn.s-buffer:hover {
+    background: #c3c5c8;
+}*/
+
+/********************************
+////// Important
+*******************************/
+
+.social-btn a:last-of-type {
+    margin: 0;
+}
+
+
+@media only screen and (max-width: 1200px) {
+    a.col-1.sbtn {
+        width: 180px;
+        display: inline-block;
+        text-align: center;
+        border-radius: 50px;
+        padding: 10px;
+        color: #fff;
+        margin: 0 0.5% 0 0;
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    a.col-1.sbtn {
+        width: 46px;
+    }
+
+    a.col-1.sbtn span {
+        display: none;
+    }
+}
 
 
 

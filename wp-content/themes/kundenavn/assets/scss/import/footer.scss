@@ -12,11 +12,13 @@
                 border-bottom: 2px solid #ffffff;
                 margin-left: 0;
                 display: flex;
-                
+
                 .footer-widget-1{
                     width:40%;
                     aside{
-                        margin-top: -35px;
+                        img{
+                            max-width: 225px;
+                        }
                     }
                 }
                 .footer-widget-2 {
